@@ -39,10 +39,9 @@ export default function Home() {
       {/* Hero Section */}
       <div className="flex flex-col items-center justify-center min-h-screen px-6 py-12">
         <div className="w-full max-w-md mx-auto space-y-8">
-          {/* Logo */}
           <div className="flex justify-center mb-8">
-            <div className="relative w-40 h-40 md:w-48 md:h-48">
-              <Image src="/images/logo-20gomez.jpeg" alt="Gomez Belezza" fill className="object-contain" priority />
+            <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden shadow-lg">
+              <Image src="/images/logo-20gomez.jpeg" alt="Gomez Belezza" fill className="object-cover" priority />
             </div>
           </div>
 
@@ -61,7 +60,7 @@ export default function Home() {
           {/* Navigation Links */}
           <nav className="space-y-3 pt-4">
             <NavButton onClick={() => navigateToView("landing")} icon={<ChevronRight className="w-5 h-5" />}>
-              Landing Page Completa
+              Conheça Nossa História
             </NavButton>
 
             <NavButton onClick={() => navigateToView("perfumes")} icon={<ChevronRight className="w-5 h-5" />}>
@@ -119,8 +118,8 @@ function LandingPageView({ onBack }: { onBack: () => void }) {
       <section className="relative py-20 px-4 text-center bg-gradient-to-b from-accent/5 to-transparent">
         <div className="max-w-4xl mx-auto space-y-6">
           <div className="flex justify-center mb-8">
-            <div className="relative w-32 h-32 md:w-40 md:h-40">
-              <Image src="/images/logo-20gomez.jpeg" alt="Gomez Belezza" fill className="object-contain" />
+            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden shadow-lg">
+              <Image src="/images/logo-20gomez.jpeg" alt="Gomez Belezza" fill className="object-cover" />
             </div>
           </div>
           <h1 className="text-4xl md:text-6xl font-serif text-foreground tracking-wide">GOMEZ BELEZZA</h1>
@@ -769,83 +768,119 @@ function PerfumesView({ onBack }: { onBack: () => void }) {
 }
 
 function LinhasView({ onBack }: { onBack: () => void }) {
-  const linhas = [
-    {
-      name: "Linha Floral",
-      description:
-        "Composições florais que variam da delicadeza romântica à intensidade poderosa. Nossa linha floral expressa toda a versatilidade e sofisticação das mais nobres flores em alta perfumaria.",
-      produtos: ["Baby", "Secret Lun's"],
-      caracteristicas: "Fixação 8-18 horas · Versátil · Elegância Atemporal",
-      image: "/images/img-20251102-215741.jpg",
-    },
-    {
-      name: "Linha Especiada",
-      description:
-        "Para quem busca presença marcante e modernidade. Fragrâncias vibrantes que combinam especiarias contemporâneas com acordes aromáticos inovadores, criando composições envolventes e memoráveis.",
-      produtos: ["Vayn's"],
-      caracteristicas: "Fixação 12-16 horas · Noturno · Impacto Moderno",
-      image: "/images/img-20251102-215629.jpg",
-    },
-    {
-      name: "Linha Oriental",
-      description:
-        "O ápice do luxo em perfumaria. Composições ricas e opulentas que combinam especiarias raras, couro nobre e acordes doces envolventes. Fragrâncias de máxima fixação para momentos extraordinários.",
-      produtos: ["Adien's"],
-      caracteristicas: "Fixação 16-20 horas · Luxo Extremo · Grande Impacto",
-      image: "/images/img-20251102-215518.jpg",
-    },
-    {
-      name: "Linha Aquática",
-      description:
-        "Energia e frescor para o dia a dia dinâmico. Fragrâncias que capturam a vitalidade do mar e a força das madeiras, perfeitas para estilos de vida ativos e pessoas que buscam intensidade constante.",
-      produtos: ["Étér's", "Olimpic"],
-      caracteristicas: "Fixação 10-16 horas · Energético · Dia e Noite",
-      image: "/images/img-20251102-215055.jpg",
-    },
-  ]
-
   return (
     <div className="min-h-screen bg-background">
       <Header title="Nossas Linhas" onBack={onBack} />
 
-      <div className="px-4 md:px-6 py-8 max-w-6xl mx-auto">
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-          Cada linha GOMEZ BELEZZA representa uma filosofia olfativa distinta, unidas pelo compromisso com alta
-          concentração, fixação excepcional e ingredientes de primeira qualidade.
-        </p>
+      <div className="max-w-6xl mx-auto px-4 py-12 space-y-16">
+        {/* Linha Feminina */}
+        <section className="space-y-8">
+          <div className="text-center space-y-4">
+            <h2 className="text-3xl md:text-4xl font-serif text-foreground">Linha Feminina</h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+              Criações elegantes e sofisticadas que celebram a feminilidade em todas as suas facetas. Fragrâncias que
+              traduzem delicadeza, força e personalidade.
+            </p>
+          </div>
 
-        <div className="space-y-8">
-          {linhas.map((linha, index) => (
-            <div
-              key={index}
-              className="bg-card rounded-lg overflow-hidden border border-border shadow-sm hover:shadow-md transition-all"
-            >
-              <div className="grid md:grid-cols-2 gap-0">
-                <div className="relative h-64 md:h-full bg-muted order-2 md:order-1">
-                  <Image src={linha.image || "/placeholder.svg"} alt={linha.name} fill className="object-cover" />
-                </div>
-                <div className="p-8 md:p-10 space-y-4 order-1 md:order-2">
-                  <h3 className="text-3xl font-serif text-foreground">{linha.name}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{linha.description}</p>
-                  <div className="pt-2">
-                    <p className="text-xs text-muted-foreground uppercase tracking-wider mb-3">Características</p>
-                    <p className="text-sm text-foreground/70">{linha.caracteristicas}</p>
-                  </div>
-                  <div className="pt-2">
-                    <p className="text-xs text-muted-foreground uppercase tracking-wider mb-3">Perfumes</p>
-                    <div className="flex flex-wrap gap-2">
-                      {linha.produtos.map((produto, i) => (
-                        <span key={i} className="px-4 py-2 bg-accent/10 text-foreground rounded-md text-sm font-medium">
-                          {produto}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="flex flex-col items-center space-y-4">
+              <div className="relative w-48 h-48 rounded-lg overflow-hidden shadow-md">
+                <Image src="/images/img-20251102-215741.jpg" alt="Secret Lun's" fill className="object-cover" />
+              </div>
+              <div className="text-center space-y-1">
+                <h3 className="text-lg font-serif text-foreground">Secret Lun's</h3>
+                <p className="text-sm text-accent">Floral Amadeirado</p>
               </div>
             </div>
-          ))}
-        </div>
+
+            <div className="flex flex-col items-center space-y-4">
+              <div className="relative w-48 h-48 rounded-lg overflow-hidden shadow-md">
+                <Image src="/images/img-20251102-215947.jpg" alt="Baby" fill className="object-cover" />
+              </div>
+              <div className="text-center space-y-1">
+                <h3 className="text-lg font-serif text-foreground">Baby</h3>
+                <p className="text-sm text-accent">Floral Fresco</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-center space-y-4">
+              <div className="relative w-48 h-48 rounded-lg overflow-hidden shadow-md">
+                <Image src="/images/img-20251102-215339.jpg" alt="Olimpic" fill className="object-cover" />
+              </div>
+              <div className="text-center space-y-1">
+                <h3 className="text-lg font-serif text-foreground">Olimpic</h3>
+                <p className="text-sm text-accent">Floral Salgado</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-center space-y-4">
+              <div className="relative w-48 h-48 rounded-lg overflow-hidden shadow-md">
+                <Image src="/images/img-20251102-215055.jpg" alt="Étér's" fill className="object-cover" />
+              </div>
+              <div className="text-center space-y-1">
+                <h3 className="text-lg font-serif text-foreground">Étér's</h3>
+                <p className="text-sm text-accent">Floral Suave</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Linha Masculina */}
+        <section className="space-y-8">
+          <div className="text-center space-y-4">
+            <h2 className="text-3xl md:text-4xl font-serif text-foreground">Linha Masculina</h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+              Fragrâncias marcantes e envolventes que expressam sofisticação e presença. Composições olfativas de
+              caráter forte e fixação excepcional.
+            </p>
+          </div>
+
+          <div className="flex justify-center gap-8">
+            <div className="flex flex-col items-center space-y-4">
+              <div className="relative w-48 h-48 rounded-lg overflow-hidden shadow-md">
+                <Image src="/images/img-20251102-215629.jpg" alt="Vayn's" fill className="object-cover" />
+              </div>
+              <div className="text-center space-y-1">
+                <h3 className="text-lg font-serif text-foreground">Vayn's</h3>
+                <p className="text-sm text-accent">Especiado Aromático</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-center space-y-4">
+              <div className="relative w-48 h-48 rounded-lg overflow-hidden shadow-md">
+                <Image src="/images/img-20251102-215518.jpg" alt="Adien's" fill className="object-cover" />
+              </div>
+              <div className="text-center space-y-1">
+                <h3 className="text-lg font-serif text-foreground">Adien's</h3>
+                <p className="text-sm text-accent">Aquático Especiado</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Sobre as Linhas */}
+        <section className="bg-card/30 p-8 rounded-lg border border-border">
+          <h3 className="text-2xl font-serif text-foreground text-center mb-6">Identidade das Linhas</h3>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="space-y-3">
+              <h4 className="font-semibold text-foreground">Linha Feminina</h4>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Quatro criações que exploram diferentes aspectos da feminilidade: desde a delicadeza floral até a
+                intensidade amadeirada. Fragrâncias versáteis para momentos diurnos e noturnos, sempre com elegância e
+                sofisticação.
+              </p>
+            </div>
+            <div className="space-y-3">
+              <h4 className="font-semibold text-foreground">Linha Masculina</h4>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Duas composições marcantes que definem presença: Vayn's com sua personalidade noturna especiada, e
+                Adien's com sua modernidade aquática. Fragrâncias de caráter forte e fixação duradoura para homens de
+                personalidade única.
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   )
@@ -1022,64 +1057,144 @@ function ContatoView({ onBack }: { onBack: () => void }) {
     <div className="min-h-screen bg-background">
       <Header title="Atendimento e Contato" onBack={onBack} />
 
-      <div className="px-4 md:px-6 py-8 max-w-4xl mx-auto">
-        <div className="text-center mb-12 space-y-4">
-          <p className="text-lg text-muted-foreground">
-            Estamos à disposição para atendê-lo com dedicação e profissionalismo.
+      <div className="max-w-4xl mx-auto px-4 py-16">
+        {/* Hero Section */}
+        <div className="text-center mb-16 space-y-4">
+          <div className="flex justify-center mb-6">
+            <div className="relative w-24 h-24 rounded-full overflow-hidden shadow-lg">
+              <Image src="/images/logo-20gomez.jpeg" alt="Gomez Belezza" fill className="object-cover" />
+            </div>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-serif text-foreground">Estamos à Disposição</h1>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            Nossa equipe está pronta para ajudá-lo a descobrir a fragrância perfeita. Entre em contato conosco por meio
+            dos canais abaixo.
           </p>
-          <p className="text-sm text-muted-foreground">Atendimento disponível 24 horas por dia, 7 dias por semana.</p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-card p-8 rounded-lg border border-border text-center space-y-4">
-            <Phone className="w-12 h-12 mx-auto text-accent" />
-            <h3 className="text-xl font-serif text-foreground">WhatsApp</h3>
-            <p className="text-muted-foreground">Atendimento direto e personalizado</p>
-            <a
-              href="https://wa.me/5511995384328"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-md font-medium transition-colors"
-            >
-              (11) 99538-4328
-            </a>
-          </div>
+        {/* Contact Cards */}
+        <div className="grid md:grid-cols-3 gap-6 mb-16">
+          {/* WhatsApp */}
+          <a
+            href="https://wa.me/5511995384328"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-card border border-border rounded-lg p-8 text-center hover:shadow-lg transition-all hover:scale-105 group"
+          >
+            <div className="flex justify-center mb-4">
+              <div className="w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center group-hover:bg-green-500/20 transition-colors">
+                <Phone className="w-8 h-8 text-green-600" />
+              </div>
+            </div>
+            <h3 className="text-xl font-serif text-foreground mb-2">WhatsApp</h3>
+            <p className="text-sm text-muted-foreground mb-3">Atendimento disponível 24h</p>
+            <p className="text-accent font-medium">(11) 99538-4328</p>
+          </a>
 
-          <div className="bg-card p-8 rounded-lg border border-border text-center space-y-4">
-            <Instagram className="w-12 h-12 mx-auto text-accent" />
-            <h3 className="text-xl font-serif text-foreground">Instagram</h3>
-            <p className="text-muted-foreground">Acompanhe nossas novidades</p>
-            <a
-              href="https://instagram.com/gomez_bellezza"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block px-6 py-3 bg-accent hover:bg-accent-hover text-accent-foreground rounded-md font-medium transition-colors"
-            >
-              @gomez_bellezza
-            </a>
+          {/* Instagram */}
+          <a
+            href="https://instagram.com/gomez_bellezza"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-card border border-border rounded-lg p-8 text-center hover:shadow-lg transition-all hover:scale-105 group"
+          >
+            <div className="flex justify-center mb-4">
+              <div className="w-16 h-16 rounded-full bg-pink-500/10 flex items-center justify-center group-hover:bg-pink-500/20 transition-colors">
+                <Instagram className="w-8 h-8 text-pink-600" />
+              </div>
+            </div>
+            <h3 className="text-xl font-serif text-foreground mb-2">Instagram</h3>
+            <p className="text-sm text-muted-foreground mb-3">Siga-nos nas redes sociais</p>
+            <p className="text-accent font-medium">@gomez_bellezza</p>
+          </a>
+
+          {/* Email */}
+          <a
+            href="mailto:contato@gomezbellezza.com.br"
+            className="bg-card border border-border rounded-lg p-8 text-center hover:shadow-lg transition-all hover:scale-105 group"
+          >
+            <div className="flex justify-center mb-4">
+              <div className="w-16 h-16 rounded-full bg-blue-500/10 flex items-center justify-center group-hover:bg-blue-500/20 transition-colors">
+                <Mail className="w-8 h-8 text-blue-600" />
+              </div>
+            </div>
+            <h3 className="text-xl font-serif text-foreground mb-2">E-mail</h3>
+            <p className="text-sm text-muted-foreground mb-3">Entre em contato por e-mail</p>
+            <p className="text-accent font-medium text-sm">contato@gomezbellezza.com.br</p>
+          </a>
+        </div>
+
+        {/* Horário de Atendimento */}
+        <div className="bg-accent/5 border border-accent/20 rounded-lg p-8 mb-12">
+          <div className="text-center space-y-4">
+            <h3 className="text-2xl font-serif text-foreground">Horário de Atendimento</h3>
+            <div className="space-y-2">
+              <p className="text-lg text-foreground font-medium">Disponível 24 horas por dia</p>
+              <p className="text-muted-foreground">Todos os dias da semana, incluindo finais de semana e feriados</p>
+              <p className="text-sm text-accent italic">Respostas rápidas e atendimento personalizado</p>
+            </div>
           </div>
         </div>
 
-        <div className="bg-card p-8 rounded-lg border border-border">
-          <h3 className="text-2xl font-serif text-foreground mb-6 text-center">Como Podemos Ajudar</h3>
-          <div className="space-y-4 text-sm text-muted-foreground">
-            <p>
-              <strong className="text-foreground">Consultas Personalizadas:</strong> Ajudamos você a escolher o perfume
-              ideal para seu estilo e ocasião.
-            </p>
-            <p>
-              <strong className="text-foreground">Informações sobre Produtos:</strong> Detalhes completos sobre fixação,
-              notas e características de cada fragrância.
-            </p>
-            <p>
-              <strong className="text-foreground">Disponibilidade e Entrega:</strong> Consulte estoque e opções de
-              entrega para sua região.
-            </p>
-            <p>
-              <strong className="text-foreground">Orientações de Uso:</strong> Dicas profissionais para maximizar a
-              fixação e durabilidade.
-            </p>
+        {/* Informações Adicionais */}
+        <div className="grid md:grid-cols-2 gap-8">
+          <div className="space-y-4">
+            <h3 className="text-xl font-serif text-foreground">Como Comprar</h3>
+            <ul className="space-y-3 text-sm text-muted-foreground">
+              <li className="flex items-start gap-2">
+                <ChevronRight className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <span>Entre em contato via WhatsApp ou Instagram</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <ChevronRight className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <span>Escolha suas fragrâncias favoritas do catálogo</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <ChevronRight className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <span>Receba orientações personalizadas sobre cada perfume</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <ChevronRight className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <span>Finalize seu pedido com segurança e praticidade</span>
+              </li>
+            </ul>
           </div>
+
+          <div className="space-y-4">
+            <h3 className="text-xl font-serif text-foreground">Diferenciais</h3>
+            <ul className="space-y-3 text-sm text-muted-foreground">
+              <li className="flex items-start gap-2">
+                <ChevronRight className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <span>Atendimento personalizado e consultoria olfativa</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <ChevronRight className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <span>Produtos de alta qualidade com fixação excepcional</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <ChevronRight className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <span>Fragrâncias exclusivas e sofisticadas</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <ChevronRight className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <span>Disponibilidade total para tirar suas dúvidas</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* CTA Final */}
+        <div className="mt-16 text-center">
+          <p className="text-lg text-foreground mb-6 italic">Transforme momentos em memórias inesquecíveis</p>
+          <a
+            href="https://wa.me/5511995384328"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-accent text-white px-8 py-4 rounded-lg font-medium hover:bg-accent/90 transition-colors shadow-lg hover:shadow-xl"
+          >
+            <Phone className="w-5 h-5" />
+            Fale Conosco no WhatsApp
+          </a>
         </div>
       </div>
     </div>

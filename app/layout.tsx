@@ -9,25 +9,12 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 const _playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif" })
 
 export const metadata: Metadata = {
-  title: "GOMEZ BELEZZA - Perfumes de Alta Fixação",
-  description: "Catálogo digital de perfumes GOMEZ BELEZZA. Descubra fragrâncias exclusivas de alta fixação.",
+  title: "Gomez Belezza",
+  description: "Alta perfumaria artesanal. Exclusividade em cada fragrância. Perfumes que deixam memórias no ar.",
   generator: "v0.app",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/images/logo-20gomez.jpeg",
+    apple: "/images/logo-20gomez.jpeg",
   },
 }
 
