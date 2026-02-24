@@ -180,6 +180,83 @@ function InspiracoesView({ onBack }: { onBack: () => void }) {
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jean%20paul%20gaultier-DPVqCAZO2ZT19SnUCVZi4W50WXBX73.jpeg",
       tag: "The intense new fragrance.",
     },
+    {
+      name: "CK One",
+      brand: "Calvin Klein",
+      family: "Citrico Aromatico",
+      notes: "Limao, abacaxi, cha verde, jasmim, almiscar",
+      shortDescription: "Citrico aromatico e unissex. Refrescante, limpo e versatil.",
+      fullDescription:
+        "Um marco na historia da perfumaria moderna e o pioneiro absoluto das fragancias unissex. CK One revolucionou o mercado ao provar que frescor e elegancia nao precisam de genero. A abertura vibrante de limao e abacaxi desperta os sentidos com naturalidade, enquanto o cha verde e o jasmim no coracao conferem uma leveza sofisticada. O almiscar na base garante um toque suave e limpo que permanece discretamente na pele. Perfeito para o dia a dia e climas quentes, transmite leveza e naturalidade atemporal.",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img1-kJDD4JD5mmBgOKNBSOMHEGQ4Apr5WL.jpeg",
+      tag: "Frescor que une estilos.",
+    },
+    {
+      name: "Fantasy",
+      brand: "Britney Spears",
+      family: "Gourmand Frutado",
+      notes: "Kiwi, lichia vermelha, cupcake, chocolate branco, almiscar",
+      shortDescription: "Doce, envolvente e divertido. Frutado com acordes gourmand cremosos.",
+      fullDescription:
+        "Uma fragrancia que transforma a doçura em arte olfativa e celebra a feminilidade jovial e desinibida. A abertura frutada de kiwi e lichia vermelha suculenta cria uma explosao de energia e vitalidade. O coracao gourmand de cupcake e chocolate branco adiciona camadas cremosas e irresistiveis, enquanto o almiscar na base proporciona um toque sensual e envolvente que permanece na memoria. Ideal para quem gosta de perfumes marcantes e adocicados que deixam um rastro de encantamento por onde passam.",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img%202-AOlsvcEMEo6FCdcwbmH5wQGLjvsEUl.jpeg",
+      tag: "Doce e inesquecivel.",
+    },
+    {
+      name: "Baccarat Rouge 540",
+      brand: "Maison Francis Kurkdjian",
+      family: "Ambarado Floral",
+      notes: "Açafrao, jasmim, ambar cinzento, notas amadeiradas",
+      shortDescription: "Luxuoso e marcante, doçura ambarada com sofisticacao absoluta.",
+      fullDescription:
+        "Considerado uma das maiores criações da perfumaria contemporanea, Baccarat Rouge 540 e sinonimo de luxo e exclusividade. A abertura luminosa de açafrao confere uma calidez especiada unica, enquanto o jasmim adiciona uma faceta floral elegante e refinada. O ambar cinzento e as notas amadeiradas na base criam uma aura envolvente de doçura sofisticada e projecao magnetica. Uma fragrancia que transcende generos e estacoes, marcando presenca com uma assinatura olfativa inconfundivel e de alta fixacao.",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img3-Ckg1LMknN4pjBINjycyZXyovWlfBoi.jpeg",
+      tag: "O luxo em sua forma mais pura.",
+    },
+    {
+      name: "Light Blue",
+      brand: "Dolce & Gabbana",
+      family: "Citrico Fresco",
+      notes: "Limao siciliano, maça verde, cedro, almiscar",
+      shortDescription: "Refrescante e vibrante, a sensacao do verao mediterraneo.",
+      fullDescription:
+        "Uma ode ao Mediterraneo e a dolce vita italiana. Light Blue captura a essencia dos dias ensolarados na costa de Capri com sua abertura eletrizante de limao siciliano que desperta e revigora. A maça verde adiciona uma camada de frescor crocante e juvenil, enquanto o cedro e o almiscar na base proporcionam uma elegancia discreta e duradoura. Leve, citrico e extremamente agradavel, e a escolha perfeita para quem busca uma fragrancia que transmita vitalidade, alegria e a sofisticacao natural do estilo italiano.",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img4-idnaRLlo58jbKTixmbzl2W6xtHxv0n.jpeg",
+      tag: "O frescor do Mediterraneo.",
+    },
+    {
+      name: "MYSLF",
+      brand: "Yves Saint Laurent",
+      family: "Amadeirado Floral",
+      notes: "Bergamota, flor de laranjeira, ambroxan, madeiras",
+      shortDescription: "Moderno e intenso, frescor citrico com fundo amadeirado envolvente.",
+      fullDescription:
+        "Uma declaracao de identidade masculina contemporanea assinada pela iconica maison francesa. MYSLF combina a luminosidade fresca da bergamota com a delicadeza sensual da flor de laranjeira, criando uma abertura que equilibra frescor e profundidade. O ambroxan e as madeiras nobres na base conferem uma presenca envolvente e sofisticada que permanece na pele por horas. Versatil e elegante, traduz a ideia de que masculinidade moderna e feita de multiplas facetas, todas igualmente poderosas e refinadas.",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img5-X5juobaFfJXwASD7AjCwLR3vjGlSJ2.jpeg",
+      tag: "Sou todas as minhas versoes.",
+    },
+    {
+      name: "Chloe Eau de Parfum",
+      brand: "Chloe",
+      family: "Floral Powdery",
+      notes: "Peonia, rosa, lichia, ambar",
+      shortDescription: "Delicado e elegante, a rosa de forma moderna e sofisticada.",
+      fullDescription:
+        "Uma celebracao da feminilidade em sua forma mais pura e refinada. Chloe Eau de Parfum apresenta a peonia e a rosa em um dueto floral que exala naturalidade e charme inato. A lichia adiciona um toque frutado discreto e luminoso, enquanto o ambar na base confere uma calidez acolhedora e uma fixacao elegante. Feminino, leve e naturalmente sofisticado, e o perfume que define a mulher confiante que encontra sua forca na delicadeza e na graciosidade de cada gesto.",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-L9VFM34iS2KvoKWsZN9pBCs6qrgI4i.jpeg",
+      tag: "Graciosidade em cada nota.",
+    },
+    {
+      name: "Invictus",
+      brand: "Paco Rabanne",
+      family: "Aquatico Amadeirado",
+      notes: "Toranja, notas marinhas, louro, ambar cinzento, madeira guaiac",
+      shortDescription: "Fresco e energetico, notas aquaticas com fundo adocicado e ambarado.",
+      fullDescription:
+        "Uma fragrancia que evoca a sensacao de vitoria e conquista com cada borrifada. A toranja abre com uma explosao citrica eletrizante, seguida por notas marinhas que trazem frescor e vitalidade pulsante. O louro no coracao adiciona uma dimensao aromatica nobre, enquanto o ambar cinzento e a madeira guaiac na base criam um fundo adocicado e poderoso. Jovem, competitivo e de otima projecao, Invictus e a escolha definitiva para quem enfrenta cada dia como um desafio a ser vencido com estilo.",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/erba%20pura-k8oeS3vQHuX2GTjNzNWqfHPofzmnPc.jpeg",
+      tag: "A fragrancia da conquista.",
+    },
   ]
 
   return (
@@ -189,7 +266,8 @@ function InspiracoesView({ onBack }: { onBack: () => void }) {
       <div className="px-4 md:px-6 py-12 max-w-7xl mx-auto">
         {/* Intro */}
         <div className="text-center mb-16 max-w-3xl mx-auto space-y-4">
-          <h2 className="text-3xl md:text-4xl font-serif text-foreground">Grandes Fragancias, Uma Interpretacao Unica</h2>
+          <p className="text-xs text-accent uppercase tracking-[0.3em]">12 fragancias de referencia</p>
+          <h2 className="text-3xl md:text-5xl font-serif text-foreground leading-tight">Grandes Fragancias, Uma Interpretacao Unica</h2>
           <div className="w-16 h-px bg-accent mx-auto" />
           <p className="text-muted-foreground leading-relaxed">
             A Gomez Bellezza se inspira nas maiores criações da perfumaria mundial para desenvolver
@@ -529,20 +607,27 @@ function LandingPageView({ onBack }: { onBack: () => void }) {
           <h2 className="text-3xl md:text-4xl font-serif text-center mb-4 text-foreground">Inspiracoes Olfativas</h2>
           <div className="w-12 h-px bg-accent mx-auto mb-4" />
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Interpretacoes artesanais das maiores fragancias da perfumaria mundial, com identidade e concentracao Gomez Bellezza.
+            12 interpretacoes artesanais das maiores fragancias da perfumaria mundial, com identidade e concentracao Gomez Bellezza.
           </p>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
             {[
               { name: "212 VIP", brand: "Carolina Herrera", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/212%20vip-ylZvWoabBOJENGLcEDESLRDUF44B4x.jpeg" },
               { name: "212 VIP Black", brand: "Carolina Herrera", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/212%20vip%20black-jZyCf6b6SAExg6vTJJlkVAff7KiiCc.jpeg" },
               { name: "Scandal", brand: "Jean Paul Gaultier", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jean%20paul%20scandal-hU6rrYjGpeCtI3JPbRKOyvxceXgIuY.jpeg" },
               { name: "Erba Pura", brand: "Xerjoff", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/erba%20pura-k8oeS3vQHuX2GTjNzNWqfHPofzmnPc.jpeg" },
               { name: "Le Male Le Parfum", brand: "Jean Paul Gaultier", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jean%20paul%20gaultier-DPVqCAZO2ZT19SnUCVZi4W50WXBX73.jpeg" },
+              { name: "CK One", brand: "Calvin Klein", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img1-kJDD4JD5mmBgOKNBSOMHEGQ4Apr5WL.jpeg" },
+              { name: "Fantasy", brand: "Britney Spears", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img%202-AOlsvcEMEo6FCdcwbmH5wQGLjvsEUl.jpeg" },
+              { name: "Baccarat Rouge 540", brand: "Maison Francis Kurkdjian", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img3-Ckg1LMknN4pjBINjycyZXyovWlfBoi.jpeg" },
+              { name: "Light Blue", brand: "Dolce & Gabbana", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img4-idnaRLlo58jbKTixmbzl2W6xtHxv0n.jpeg" },
+              { name: "MYSLF", brand: "Yves Saint Laurent", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img5-X5juobaFfJXwASD7AjCwLR3vjGlSJ2.jpeg" },
+              { name: "Chloe EDP", brand: "Chloe", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-L9VFM34iS2KvoKWsZN9pBCs6qrgI4i.jpeg" },
+              { name: "Invictus", brand: "Paco Rabanne", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/erba%20pura-k8oeS3vQHuX2GTjNzNWqfHPofzmnPc.jpeg" },
             ].map((item, index) => (
-              <div key={index} className="text-center space-y-3">
-                <div className="relative aspect-[3/4] rounded-lg overflow-hidden shadow-md">
-                  <Image src={item.image} alt={item.name} fill className="object-cover" sizes="(max-width: 640px) 50vw, 20vw" />
+              <div key={index} className="text-center space-y-3 group">
+                <div className="relative aspect-[3/4] rounded-lg overflow-hidden shadow-md group-hover:shadow-xl transition-shadow">
+                  <Image src={item.image} alt={item.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw" />
                 </div>
                 <div>
                   <h3 className="text-sm font-serif text-foreground">{item.name}</h3>
