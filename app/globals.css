@@ -4,83 +4,91 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated to GOMEZ BELEZZA elegant cream/beige theme inspired by design brief */
-  --background: oklch(0.955 0.01 70); /* Soft cream #EDE3D6 */
-  --foreground: oklch(0.25 0.02 70); /* Deep brown for text */
-  --card: oklch(0.98 0.005 70); /* Lighter cream for cards */
-  --card-foreground: oklch(0.25 0.02 70);
-  --card-hover: oklch(0.96 0.01 70); /* Subtle hover state */
-  --popover: oklch(0.98 0.005 70);
-  --popover-foreground: oklch(0.25 0.02 70);
-  --primary: oklch(0.25 0.02 70); /* Deep brown */
-  --primary-foreground: oklch(0.98 0.005 70);
-  --secondary: oklch(0.88 0.015 70); /* Muted beige */
-  --secondary-foreground: oklch(0.25 0.02 70);
-  --muted: oklch(0.91 0.012 70); /* Light beige */
-  --muted-foreground: oklch(0.5 0.015 70); /* Medium brown */
-  --accent: oklch(0.35 0.025 70); /* Rich brown accent */
-  --accent-foreground: oklch(0.98 0.005 70);
-  --accent-hover: oklch(0.3 0.03 70); /* Darker on hover */
+  /* GOMEZ BELLEZZA — Premium Luxury Perfumery Design System */
+  /* Preto profundo #111111, Off-white #F5F2ED, Dourado suave #C6A75E */
+  --background: #F5F2ED;
+  --foreground: #111111;
+  --card: #FEFCF9;
+  --card-foreground: #111111;
+  --card-hover: #F5F2ED;
+  --popover: #FEFCF9;
+  --popover-foreground: #111111;
+  --primary: #111111;
+  --primary-foreground: #F5F2ED;
+  --secondary: #EDE8E0;
+  --secondary-foreground: #111111;
+  --muted: #EDE8E0;
+  --muted-foreground: #6B6560;
+  --accent: #C6A75E;
+  --accent-foreground: #111111;
+  --accent-hover: #B8973F;
+  --gold: #C6A75E;
+  --gold-light: #D4BA7A;
+  --gold-dark: #B8973F;
   --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.98 0.005 70);
-  --border: oklch(0.88 0.015 70); /* Subtle borders */
-  --input: oklch(0.88 0.015 70);
-  --ring: oklch(0.35 0.025 70);
+  --destructive-foreground: #F5F2ED;
+  --border: #E2DDD5;
+  --input: #E2DDD5;
+  --ring: #C6A75E;
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
-  --radius: 0.875rem; /* Softer, more elegant radius */
-  --sidebar: oklch(0.98 0.005 70);
-  --sidebar-foreground: oklch(0.25 0.02 70);
-  --sidebar-primary: oklch(0.35 0.025 70);
-  --sidebar-primary-foreground: oklch(0.98 0.005 70);
-  --sidebar-accent: oklch(0.91 0.012 70);
-  --sidebar-accent-foreground: oklch(0.25 0.02 70);
-  --sidebar-border: oklch(0.88 0.015 70);
-  --sidebar-ring: oklch(0.35 0.025 70);
+  --radius: 0.5rem;
+  --sidebar: #FEFCF9;
+  --sidebar-foreground: #111111;
+  --sidebar-primary: #C6A75E;
+  --sidebar-primary-foreground: #111111;
+  --sidebar-accent: #EDE8E0;
+  --sidebar-accent-foreground: #111111;
+  --sidebar-border: #E2DDD5;
+  --sidebar-ring: #C6A75E;
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.145 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.145 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
+  --background: #0A0A0A;
+  --foreground: #F5F2ED;
+  --card: #141414;
+  --card-foreground: #F5F2ED;
+  --card-hover: #1A1A1A;
+  --popover: #141414;
+  --popover-foreground: #F5F2ED;
+  --primary: #F5F2ED;
+  --primary-foreground: #111111;
+  --secondary: #1E1E1E;
+  --secondary-foreground: #F5F2ED;
+  --muted: #1E1E1E;
+  --muted-foreground: #9B9590;
+  --accent: #C6A75E;
+  --accent-foreground: #111111;
+  --accent-hover: #D4BA7A;
+  --gold: #C6A75E;
+  --gold-light: #D4BA7A;
+  --gold-dark: #B8973F;
   --destructive: oklch(0.396 0.141 25.723);
   --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.269 0 0);
-  --input: oklch(0.269 0 0);
-  --ring: oklch(0.439 0 0);
+  --border: #2A2A2A;
+  --input: #2A2A2A;
+  --ring: #C6A75E;
   --chart-1: oklch(0.488 0.243 264.376);
   --chart-2: oklch(0.696 0.17 162.48);
   --chart-3: oklch(0.769 0.188 70.08);
   --chart-4: oklch(0.627 0.265 303.9);
   --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.269 0 0);
-  --sidebar-ring: oklch(0.439 0 0);
+  --sidebar: #141414;
+  --sidebar-foreground: #F5F2ED;
+  --sidebar-primary: #C6A75E;
+  --sidebar-primary-foreground: #111111;
+  --sidebar-accent: #1E1E1E;
+  --sidebar-accent-foreground: #F5F2ED;
+  --sidebar-border: #2A2A2A;
+  --sidebar-ring: #C6A75E;
 }
 
 @theme inline {
-  /* Added serif font for elegant typography */
-  --font-sans: "Geist", "Geist Fallback";
-  --font-mono: "Geist Mono", "Geist Mono Fallback";
+  --font-sans: "Geist", "Geist Fallback", system-ui, sans-serif;
+  --font-mono: "Geist Mono", "Geist Mono Fallback", monospace;
   --font-serif: "Playfair Display", "Georgia", serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -103,6 +111,9 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-dark: var(--gold-dark);
   --color-chart-1: var(--chart-1);
   --color-chart-2: var(--chart-2);
   --color-chart-3: var(--chart-3);
@@ -129,4 +140,91 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Premium scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Elegant selection color */
+::selection {
+  background-color: var(--gold);
+  color: var(--foreground);
+}
+
+/* Premium animations */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out forwards;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Stagger children animation delays */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
+.stagger-6 { animation-delay: 0.6s; }
+
+/* Gold divider */
+.gold-divider {
+  width: 3rem;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+/* Premium hover for images */
+.img-hover-zoom {
+  overflow: hidden;
+}
+.img-hover-zoom img {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.img-hover-zoom:hover img {
+  transform: scale(1.05);
+}
+
+/* Letter spacing utility */
+.tracking-luxury {
+  letter-spacing: 0.25em;
 }
