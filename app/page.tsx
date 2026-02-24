@@ -481,8 +481,8 @@ function AboutSection() {
         >
           <div className="relative aspect-[3/4] max-w-sm mx-auto img-hover-zoom">
             <Image
-              src="/classic-elegant-perfume-collection.jpg"
-              alt="Colecao Gomez Bellezza"
+              src="/imgs/colecao-gomez-bellezza.jpg"
+              alt="Frasco de perfume elegante da colecao Gomez Bellezza"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 40vw"
