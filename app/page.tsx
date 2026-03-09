@@ -32,16 +32,16 @@ const perfumes = [
   {
     name: "Vayn's",
     originalInspiration: "212 VIP Men Black",
-    category: "Especiado Aromatico",
+    category: "Especiado Aromático",
     line: "Masculina",
     familyTag: "Especiado",
     notes: {
-      top: "Especiarias afiadas, Notas aromaticas",
-      heart: "Notas alcoolicas, Acordes modernos",
-      base: "Madeiras escuras, Ambar quente",
+      top: "Especiarias afiadas, Notas aromáticas",
+      heart: "Notas alcoólicas, Acordes modernos",
+      base: "Madeiras escuras, Âmbar quente",
     },
     description:
-      "Uma composicao envolvente que celebra a sofisticacao noturna. Vayn's entrega presenca marcante atraves de especiarias afiadas equilibradas com sutis notas alcoolicas, criando um rastro vibrante e contemporaneo.",
+      "Uma composição envolvente que celebra a sofisticação noturna. Vayn's entrega presença marcante através de especiarias afiadas equilibradas com sutis notas alcoólicas, criando um rastro vibrante e contemporâneo.",
     intensity: "Intensa",
     fixation: "12-16 horas",
     occasion: "Noturno, Eventos Especiais",
@@ -58,30 +58,30 @@ const perfumes = [
     notes: {
       top: "Rosa intensa, Especiarias delicadas",
       heart: "Madeiras nobres, Notas florais",
-      base: "Ambar, Almiscar branco",
+      base: "Âmbar, Almíscar branco",
     },
     description:
-      "Uma interpretacao majestosa da rosa em sua forma mais poderosa. Secret Lun's apresenta um coracao floral intenso sustentado por madeiras profundas, revelando camadas de sofisticacao e luxo.",
+      "Uma interpretação majestosa da rosa em sua forma mais poderosa. Secret Lun's apresenta um coração floral intenso sustentado por madeiras profundas, revelando camadas de sofisticação e luxo.",
     intensity: "Forte",
     fixation: "14-18 horas",
-    occasion: "Versatil, Dia e Noite",
+    occasion: "Versátil, Dia e Noite",
     volume: "50ml",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_20251102_215741-pu33KEWgvRsni50qqUyr843BA4JFgY.jpg",
   },
   {
     name: "Baby",
-    originalInspiration: "Chloe",
+    originalInspiration: "Chloé",
     category: "Floral Fresco",
     line: "Feminina",
     familyTag: "Floral",
     notes: {
-      top: "Rosa delicada, Peonia fresca",
-      heart: "Lirio do vale, Magnolia",
-      base: "Ambar suave, Almiscar",
+      top: "Rosa delicada, Peônia fresca",
+      heart: "Lírio do vale, Magnólia",
+      base: "Âmbar suave, Almíscar",
     },
     description:
-      "A leveza e sofisticacao reunidas em uma fragrancia atemporal. Baby traz um bouquet floral refinado onde a rosa se revela em sua forma mais delicada e feminina.",
+      "A leveza e sofisticação reunidas em uma fragrância atemporal. Baby traz um bouquet floral refinado onde a rosa se revela em sua forma mais delicada e feminina.",
     intensity: "Moderada",
     fixation: "8-12 horas",
     occasion: "Dia a Dia, Eventos Diurnos",
@@ -91,17 +91,17 @@ const perfumes = [
   },
   {
     name: "Olimpic",
-    originalInspiration: "Olympea",
+    originalInspiration: "Olympéa",
     category: "Floral Salgado",
     line: "Feminina",
-    familyTag: "Aquatico",
+    familyTag: "Aquático",
     notes: {
       top: "Notas marinhas, Sal cristalino",
-      heart: "Florais adocicados, Jasmim d'agua",
-      base: "Ambar, Madeiras claras",
+      heart: "Florais adocicados, Jasmim d'água",
+      base: "Âmbar, Madeiras claras",
     },
     description:
-      "Uma fragrancia de contrastes fascinantes que desafia convencoes. Olimpic harmoniza o frescor salgado das notas aquaticas com florais modernos adocicados.",
+      "Uma fragrância de contrastes fascinantes que desafia convenções. Olimpic harmoniza o frescor salgado das notas aquáticas com florais modernos adocicados.",
     intensity: "Intensa",
     fixation: "12-16 horas",
     occasion: "Noturno, Sofisticado",
@@ -112,16 +112,16 @@ const perfumes = [
   {
     name: "Eter's",
     originalInspiration: "Invictus",
-    category: "Aquatico Amadeirado",
-    line: "Feminina",
-    familyTag: "Aquatico",
+    category: "Aquático Amadeirado",
+    line: "Masculina",
+    familyTag: "Aquático",
     notes: {
       top: "Frescor marinho, Toranja",
-      heart: "Madeiras vibrantes, Notas aromaticas",
+      heart: "Madeiras vibrantes, Notas aromáticas",
       base: "Ambroxan, Vetiver",
     },
     description:
-      "Energia e frescor capturados em uma composicao dinamica. Eter's combina a vitalidade de notas aquaticas com a forca de madeiras aromaticas.",
+      "Energia e frescor capturados em uma composição dinâmica. Eter's combina a vitalidade de notas aquáticas com a força de madeiras aromáticas.",
     intensity: "Moderada a Forte",
     fixation: "10-14 horas",
     occasion: "Esportivo, Dia a Dia",
@@ -138,10 +138,10 @@ const perfumes = [
     notes: {
       top: "Especiarias marcantes, Canela",
       heart: "Couro elegante, Rosa negra",
-      base: "Notas doces, Ambar, Fava tonka",
+      base: "Notas doces, Âmbar, Fava tonka",
     },
     description:
-      "Luxo e ousadia em cada gota. Adien's apresenta uma combinacao irresistivel de especiarias marcantes com couro elegante e toques doces envolventes.",
+      "Luxo e ousadia em cada gota. Adien's apresenta uma combinação irresistível de especiarias marcantes com couro elegante e toques doces envolventes.",
     intensity: "Muito Forte",
     fixation: "16-20 horas",
     occasion: "Noturno, Grande Impacto",
@@ -156,22 +156,22 @@ const inspiracoes = [
     name: "212 VIP",
     brand: "Carolina Herrera",
     family: "Floral Frutado Gourmand",
-    notes: "Maracuja, rum, almiscar branco, baunilha, flores brancas",
+    notes: "Maracujá, rum, almíscar branco, baunilha, flores brancas",
     shortDescription: "Sofisticado e moderno, frutado com toque doce e elegante.",
     fullDescription:
-      "Uma fragrancia que captura a essencia da exclusividade e da vida noturna sofisticada. A combinacao ousada de maracuja exotico com o calor do rum cria uma abertura intrigante que evolui para um coracao de flores brancas delicadas. O fundo de almiscar e baunilha confere sensualidade e fixacao prolongada.",
+      "Uma fragrância que captura a essência da exclusividade e da vida noturna sofisticada. A combinação ousada de maracujá exótico com o calor do rum cria uma abertura intrigante que evolui para um coração de flores brancas delicadas. O fundo de almíscar e baunilha confere sensualidade e fixação prolongada.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/212%20vip-ylZvWoabBOJENGLcEDESLRDUF44B4x.jpeg",
-    tag: "Voce esta na lista.",
+    tag: "Você está na lista.",
   },
   {
     name: "212 VIP Black",
     brand: "Carolina Herrera",
     family: "Amadeirado Especiado",
-    notes: "Anis estrelado, cardamomo, lavanda, rum, cafe, fava tonka, madeira de gaiac",
+    notes: "Anis estrelado, cardamomo, lavanda, rum, café, fava tonka, madeira de guaiac",
     shortDescription: "Marcante e intenso, mistura especiarias com um toque doce envolvente.",
     fullDescription:
-      "A versao mais intensa e magnetica da linha 212 VIP. Abre com a energia pulsante do anis estrelado e cardamomo, envolvidos pela frescura aromatica da lavanda. O coracao revela a profundidade do rum e do cafe, criando uma aura de misterio e poder.",
+      "A versão mais intensa e magnética da linha 212 VIP. Abre com a energia pulsante do anis estrelado e cardamomo, envolvidos pela frescura aromática da lavanda. O coração revela a profundidade do rum e do café, criando uma aura de mistério e poder.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/212%20vip%20black-jZyCf6b6SAExg6vTJJlkVAff7KiiCc.jpeg",
     tag: "Domine a noite.",
@@ -180,10 +180,10 @@ const inspiracoes = [
     name: "Scandal",
     brand: "Jean Paul Gaultier",
     family: "Floral Gourmand",
-    notes: "Mel, gardenia, flor de laranjeira, caramelo, patchouli",
+    notes: "Mel, gardênia, flor de laranjeira, caramelo, patchouli",
     shortDescription: "Doce e sofisticado, com mel sensual e flores ricas.",
     fullDescription:
-      "Uma declaracao de ousadia e feminilidade em sua forma mais provocante. O mel sensual entrelaca-se com a opulencia da gardenia e a delicadeza da flor de laranjeira, criando um bouquet que e ao mesmo tempo doce e misterioso.",
+      "Uma declaração de ousadia e feminilidade em sua forma mais provocante. O mel sensual entrelaça-se com a opulência da gardênia e a delicadeza da flor de laranjeira, criando um bouquet que é ao mesmo tempo doce e misterioso.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jean%20paul%20scandal-hU6rrYjGpeCtI3JPbRKOyvxceXgIuY.jpeg",
     tag: "Notas doces que seduzem e encantam.",
@@ -191,11 +191,11 @@ const inspiracoes = [
   {
     name: "Erba Pura",
     brand: "Xerjoff",
-    family: "Citrico Amadeirado",
-    notes: "Laranja, limao siciliano, bergamota, frutas brancas, acorde de mel, ambar, baunilha, madeiras claras",
-    shortDescription: "Frescor citrico com docura suave e fundo aconchegante.",
+    family: "Cítrico Amadeirado",
+    notes: "Laranja, limão siciliano, bergamota, frutas brancas, acorde de mel, âmbar, baunilha, madeiras claras",
+    shortDescription: "Frescor cítrico com doçura suave e fundo aconchegante.",
     fullDescription:
-      "Uma obra-prima da perfumaria italiana de nicho que eleva os citricos a um patamar de luxo absoluto. A explosao inicial de laranja, limao siciliano e bergamota transmite vitalidade e frescor mediterraneo.",
+      "Uma obra-prima da perfumaria italiana de nicho que eleva os cítricos a um patamar de luxo absoluto. A explosão inicial de laranja, limão siciliano e bergamota transmite vitalidade e frescor mediterrâneo.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/erba%20pura-k8oeS3vQHuX2GTjNzNWqfHPofzmnPc.jpeg",
     tag: "O poder da fruta envolto em luxo.",
@@ -203,23 +203,35 @@ const inspiracoes = [
   {
     name: "Le Male Le Parfum",
     brand: "Jean Paul Gaultier",
-    family: "Fougere Oriental",
-    notes: "Menta intensa, lavanda, canela, baunilha cremosa, fava tonka, ambar",
+    family: "Fougère Oriental",
+    notes: "Menta intensa, lavanda, canela, baunilha cremosa, fava tonka, âmbar",
     shortDescription: "Charmoso e profundo, com menta marcante e calor doce de baunilha.",
     fullDescription:
-      "A evolucao mais intensa e sedutora do classico Le Male. A menta irrompe com frescor vigoroso, rapidamente abraçada pela lavanda aromatica e pela canela quente.",
+      "A evolução mais intensa e sedutora do clássico Le Male. A menta irrompe com frescor vigoroso, rapidamente abraçada pela lavanda aromática e pela canela quente.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jean%20paul%20gaultier-DPVqCAZO2ZT19SnUCVZi4W50WXBX73.jpeg",
     tag: "The intense new fragrance.",
   },
   {
+    name: "Ferrari Black",
+    brand: "Ferrari",
+    family: "Aromático Frutado",
+    notes: "Maçã, ameixa, limão, canela, cardamomo, jasmim, baunilha, âmbar, almíscar, cedro",
+    shortDescription: "Frutado e envolvente, com toque quente de baunilha e especiarias.",
+    fullDescription:
+      "Uma fragrância que combina frescor frutado com especiarias quentes. A abertura de maçã e ameixa é complementada por notas de canela e cardamomo, evoluindo para um fundo cremoso de baunilha e âmbar.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img1-kJDD4JD5mmBgOKNBSOMHEGQ4Apr5WL.jpeg",
+    tag: "Velocidade e elegância.",
+  },
+  {
     name: "CK One",
     brand: "Calvin Klein",
-    family: "Citrico Aromatico",
-    notes: "Limao, abacaxi, cha verde, jasmim, almiscar",
-    shortDescription: "Citrico aromatico e unissex. Refrescante, limpo e versatil.",
+    family: "Cítrico Aromático",
+    notes: "Limão, bergamota, abacaxi, papaia, jasmim, rosa, noz-moscada, violeta, almíscar, cedro, musgo de carvalho",
+    shortDescription: "Fresco e leve, um clássico cítrico limpo e moderno.",
     fullDescription:
-      "Um marco na historia da perfumaria moderna e o pioneiro absoluto das fragancias unissex. CK One revolucionou o mercado ao provar que frescor e elegancia nao precisam de genero.",
+      "Um marco na história da perfumaria moderna e o pioneiro absoluto das fragrâncias unissex. CK One revolucionou o mercado ao provar que frescor e elegância não precisam de gênero.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img1-kJDD4JD5mmBgOKNBSOMHEGQ4Apr5WL.jpeg",
     tag: "Frescor que une estilos.",
@@ -227,23 +239,23 @@ const inspiracoes = [
   {
     name: "Fantasy",
     brand: "Britney Spears",
-    family: "Gourmand Frutado",
-    notes: "Kiwi, lichia vermelha, cupcake, chocolate branco, almiscar",
-    shortDescription: "Doce, envolvente e divertido. Frutado com acordes gourmand cremosos.",
+    family: "Floral Gourmand",
+    notes: "Kiwi, lichia, marmelo, chocolate branco, cupcake, orquídea, almíscar, raiz de lírio, notas amadeiradas",
+    shortDescription: "Doce e divertido, com frutas suculentas e toque cremoso.",
     fullDescription:
-      "Uma fragrancia que transforma a doçura em arte olfativa e celebra a feminilidade jovial e desinibida.",
+      "Uma fragrância que transforma a doçura em arte olfativa e celebra a feminilidade jovial e desinibida. Frutas exóticas se misturam com chocolate branco e cupcake.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img%202-AOlsvcEMEo6FCdcwbmH5wQGLjvsEUl.jpeg",
-    tag: "Doce e inesquecivel.",
+    tag: "Doce e inesquecível.",
   },
   {
     name: "Baccarat Rouge 540",
     brand: "Maison Francis Kurkdjian",
-    family: "Ambarado Floral",
-    notes: "Açafrao, jasmim, ambar cinzento, notas amadeiradas",
-    shortDescription: "Luxuoso e marcante, docura ambarada com sofisticacao absoluta.",
+    family: "Oriental Ambarado",
+    notes: "Açafrão, jasmim, âmbar cinzento, madeira de âmbar, resina de abeto, cedro",
+    shortDescription: "Luxuoso e marcante, com aura ambarada sofisticada.",
     fullDescription:
-      "Considerado uma das maiores criações da perfumaria contemporanea, Baccarat Rouge 540 e sinonimo de luxo e exclusividade.",
+      "Considerado uma das maiores criações da perfumaria contemporânea, Baccarat Rouge 540 é sinônimo de luxo e exclusividade. Açafrão e jasmim se fundem com âmbar e madeiras preciosas.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img3-Ckg1LMknN4pjBINjycyZXyovWlfBoi.jpeg",
     tag: "O luxo em sua forma mais pura.",
@@ -251,35 +263,35 @@ const inspiracoes = [
   {
     name: "Light Blue",
     brand: "Dolce & Gabbana",
-    family: "Citrico Fresco",
-    notes: "Limao siciliano, maça verde, cedro, almiscar",
-    shortDescription: "Refrescante e vibrante, a sensacao do verao mediterraneo.",
+    family: "Cítrico Frutado",
+    notes: "Limão siciliano, maçã verde, cedro, bambu, jasmim, rosa branca, âmbar, almíscar",
+    shortDescription: "Refrescante e vibrante, inspirado no verão mediterrâneo.",
     fullDescription:
-      "Uma ode ao Mediterraneo e a dolce vita italiana. Light Blue captura a essencia dos dias ensolarados na costa de Capri.",
+      "Uma ode ao Mediterrâneo e à dolce vita italiana. Light Blue captura a essência dos dias ensolarados na costa de Capri com cítricos vibrantes e frescor incomparável.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img4-idnaRLlo58jbKTixmbzl2W6xtHxv0n.jpeg",
-    tag: "O frescor do Mediterraneo.",
+    tag: "O frescor do Mediterrâneo.",
   },
   {
     name: "MYSLF",
     brand: "Yves Saint Laurent",
-    family: "Amadeirado Floral",
-    notes: "Bergamota, flor de laranjeira, ambroxan, madeiras",
-    shortDescription: "Moderno e intenso, frescor citrico com fundo amadeirado envolvente.",
+    family: "Floral Amadeirado",
+    notes: "Bergamota, flor de laranjeira, patchouli, ambrofix, madeiras",
+    shortDescription: "Moderno e elegante, floral luminoso com fundo amadeirado.",
     fullDescription:
-      "Uma declaracao de identidade masculina contemporanea assinada pela iconica maison francesa.",
+      "Uma declaração de identidade masculina contemporânea assinada pela icônica maison francesa. O frescor da bergamota encontra a luminosidade da flor de laranjeira sobre um fundo amadeirado.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img5-X5juobaFfJXwASD7AjCwLR3vjGlSJ2.jpeg",
-    tag: "Sou todas as minhas versoes.",
+    tag: "Sou todas as minhas versões.",
   },
   {
-    name: "Chloe Eau de Parfum",
-    brand: "Chloe",
+    name: "Chloé Eau de Parfum",
+    brand: "Chloé",
     family: "Floral Powdery",
-    notes: "Peonia, rosa, lichia, ambar",
+    notes: "Peônia, rosa, lichia, âmbar",
     shortDescription: "Delicado e elegante, a rosa de forma moderna e sofisticada.",
     fullDescription:
-      "Uma celebracao da feminilidade em sua forma mais pura e refinada. Chloe Eau de Parfum apresenta a peonia e a rosa em um dueto floral que exala naturalidade e charme inato.",
+      "Uma celebração da feminilidade em sua forma mais pura e refinada. Chloé Eau de Parfum apresenta a peônia e a rosa em um dueto floral que exala naturalidade e charme inato.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-L9VFM34iS2KvoKWsZN9pBCs6qrgI4i.jpeg",
     tag: "Graciosidade em cada nota.",
@@ -287,14 +299,110 @@ const inspiracoes = [
   {
     name: "Invictus",
     brand: "Paco Rabanne",
-    family: "Aquatico Amadeirado",
-    notes: "Toranja, notas marinhas, louro, ambar cinzento, madeira guaiac",
-    shortDescription: "Fresco e energetico, notas aquaticas com fundo adocicado e ambarado.",
+    family: "Amadeirado Aquático",
+    notes: "Toranja, notas marinhas, folha de louro, jasmim, âmbar cinzento, patchouli, madeira guaiac",
+    shortDescription: "Frescor marinho com fundo amadeirado intenso e masculino.",
     fullDescription:
-      "Uma fragrancia que evoca a sensacao de vitoria e conquista com cada borrifada.",
+      "Uma fragrância que evoca a sensação de vitória e conquista com cada borrifada. Notas marinhas se fundem com madeiras intensas para um resultado poderoso.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/erba%20pura-k8oeS3vQHuX2GTjNzNWqfHPofzmnPc.jpeg",
-    tag: "A fragrancia da conquista.",
+    tag: "A fragrância da conquista.",
+  },
+  {
+    name: "Fakhar Rose",
+    brand: "Lattafa",
+    family: "Floral Frutado",
+    notes: "Frutas vermelhas, romã, rosa, jasmim, lírio, almíscar, baunilha, madeiras",
+    shortDescription: "Floral elegante com toque doce e feminino.",
+    fullDescription:
+      "Uma fragrância que celebra a rosa em sua forma mais luxuosa. Frutas vermelhas e romã abrem caminho para um coração floral rico, finalizado com baunilha e madeiras suaves.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-L9VFM34iS2KvoKWsZN9pBCs6qrgI4i.jpeg",
+    tag: "Elegância floral.",
+  },
+  {
+    name: "Eclaire",
+    brand: "Lattafa",
+    family: "Gourmand",
+    notes: "Caramelo, açúcar, leite, mel, baunilha, praline, almíscar",
+    shortDescription: "Doce e cremoso, lembrando sobremesas sofisticadas.",
+    fullDescription:
+      "Uma fragrância indulgente que captura a essência de sobremesas artesanais. Caramelo e açúcar se misturam com leite e mel, criando uma experiência olfativa irresistível.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img%202-AOlsvcEMEo6FCdcwbmH5wQGLjvsEUl.jpeg",
+    tag: "Doçura sofisticada.",
+  },
+  {
+    name: "Good Girl",
+    brand: "Carolina Herrera",
+    family: "Oriental Floral",
+    notes: "Amêndoa, café, jasmim sambac, tuberosa, cacau, fava tonka, baunilha",
+    shortDescription: "Intenso e sedutor, com contraste entre doce e floral.",
+    fullDescription:
+      "Uma fragrância que celebra a dualidade feminina. O café e a amêndoa encontram flores sensuais como jasmim e tuberosa, finalizando com a cremosidade do cacau e baunilha.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/212%20vip-ylZvWoabBOJENGLcEDESLRDUF44B4x.jpeg",
+    tag: "É tão bom ser má.",
+  },
+  {
+    name: "Club de Nuit Intense Man",
+    brand: "Armaf",
+    family: "Cítrico Amadeirado",
+    notes: "Limão, abacaxi, bergamota, maçã, rosa, jasmim, bétula, almíscar, âmbar, baunilha, patchouli",
+    shortDescription: "Marcante e elegante, com frescor frutado e fundo intenso.",
+    fullDescription:
+      "Uma fragrância que combina frescor cítrico com profundidade amadeirada. A abertura frutada evolui para um coração floral refinado e finaliza com madeiras e âmbar.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/212%20vip%20black-jZyCf6b6SAExg6vTJJlkVAff7KiiCc.jpeg",
+    tag: "Elegância noturna.",
+  },
+  {
+    name: "Asad",
+    brand: "Lattafa",
+    family: "Oriental Especiado",
+    notes: "Pimenta preta, abacaxi, tabaco, café, patchouli, íris, baunilha, âmbar, madeira seca",
+    shortDescription: "Forte e sofisticado, com especiarias quentes e baunilha.",
+    fullDescription:
+      "Uma fragrância poderosa que combina especiarias intensas com notas de café e tabaco. O fundo cremoso de baunilha e âmbar proporciona calor e sofisticação.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jean%20paul%20gaultier-DPVqCAZO2ZT19SnUCVZi4W50WXBX73.jpeg",
+    tag: "Força e determinação.",
+  },
+  {
+    name: "Aventus for Her",
+    brand: "Creed",
+    family: "Chipre Frutado",
+    notes: "Maçã verde, bergamota, limão, pimenta rosa, rosa, sândalo, almíscar, âmbar, pêssego, ylang-ylang",
+    shortDescription: "Feminino e poderoso, com frutas frescas e fundo elegante.",
+    fullDescription:
+      "Uma fragrância que celebra a mulher moderna e confiante. Frutas frescas e cítricas se encontram com um coração floral sofisticado e um fundo sensual de madeiras e almíscar.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-L9VFM34iS2KvoKWsZN9pBCs6qrgI4i.jpeg",
+    tag: "Poder feminino.",
+  },
+  {
+    name: "Idôle",
+    brand: "Lancôme",
+    family: "Floral Moderno",
+    notes: "Bergamota, pera, rosa turca, rosa de maio, jasmim, almíscar branco, baunilha",
+    shortDescription: "Floral delicado e luminoso, elegante e contemporâneo.",
+    fullDescription:
+      "Uma fragrância que representa a nova geração de mulheres. O frescor da bergamota e pera encontra a delicadeza das rosas, finalizado com almíscar branco e baunilha suave.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-L9VFM34iS2KvoKWsZN9pBCs6qrgI4i.jpeg",
+    tag: "Seja sua própria inspiração.",
+  },
+  {
+    name: "Olympéa",
+    brand: "Paco Rabanne",
+    family: "Oriental Floral",
+    notes: "Tangerina verde, jasmim aquático, baunilha salgada, âmbar cinzento, madeira de cashmere, sândalo",
+    shortDescription: "Doce e marcante, com contraste entre baunilha e sal marinho.",
+    fullDescription:
+      "Uma fragrância divina que combina notas aquáticas com a doçura da baunilha salgada. O jasmim aquático traz frescor, enquanto o âmbar e sândalo garantem sensualidade.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img4-idnaRLlo58jbKTixmbzl2W6xtHxv0n.jpeg",
+    tag: "Deusa entre mortais.",
   },
 ]
 
