@@ -589,7 +589,7 @@ function AboutSection() {
         >
           <div className="relative aspect-[3/4] max-w-sm mx-auto img-hover-zoom">
             <Image
-              src="/classic-elegant-perfume-collection.jpg"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_2cth692cth692cth-6eCjVqLrEiJl5t2XshGW1Ab23V2iYc.png"
               alt="Coleção Gomez Bellezza"
               fill
               className="object-cover"
