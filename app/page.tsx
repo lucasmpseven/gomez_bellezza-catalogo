@@ -654,7 +654,7 @@ function CollectionsSection({ onNavigate }: { onNavigate: (view: string) => void
     {
       name: "Edição Limitada",
       description: "Criações sazonais exclusivas em tiragem reduzida",
-      image: "/gold-luxury-perfume-bottle.jpg",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_2cth692cth692cth-6eCjVqLrEiJl5t2XshGW1Ab23V2iYc.png",
       count: "Em breve",
     },
   ]
