@@ -32,16 +32,16 @@ const perfumes = [
   {
     name: "Vayn's",
     originalInspiration: "212 VIP Men Black",
-    category: "Especiado Aromatico",
+    category: "Especiado Aromático",
     line: "Masculina",
     familyTag: "Especiado",
     notes: {
-      top: "Especiarias afiadas, Notas aromaticas",
-      heart: "Notas alcoolicas, Acordes modernos",
-      base: "Madeiras escuras, Ambar quente",
+      top: "Especiarias afiadas, Notas aromáticas",
+      heart: "Notas alcoólicas, Acordes modernos",
+      base: "Madeiras escuras, Âmbar quente",
     },
     description:
-      "Uma composicao envolvente que celebra a sofisticacao noturna. Vayn's entrega presenca marcante atraves de especiarias afiadas equilibradas com sutis notas alcoolicas, criando um rastro vibrante e contemporaneo.",
+      "Uma composição envolvente que celebra a sofisticação noturna. Vayn's entrega presença marcante através de especiarias afiadas equilibradas com sutis notas alcoólicas, criando um rastro vibrante e contemporâneo.",
     intensity: "Intensa",
     fixation: "12-16 horas",
     occasion: "Noturno, Eventos Especiais",
@@ -58,30 +58,30 @@ const perfumes = [
     notes: {
       top: "Rosa intensa, Especiarias delicadas",
       heart: "Madeiras nobres, Notas florais",
-      base: "Ambar, Almiscar branco",
+      base: "Âmbar, Almíscar branco",
     },
     description:
-      "Uma interpretacao majestosa da rosa em sua forma mais poderosa. Secret Lun's apresenta um coracao floral intenso sustentado por madeiras profundas, revelando camadas de sofisticacao e luxo.",
+      "Uma interpretação majestosa da rosa em sua forma mais poderosa. Secret Lun's apresenta um coração floral intenso sustentado por madeiras profundas, revelando camadas de sofisticação e luxo.",
     intensity: "Forte",
     fixation: "14-18 horas",
-    occasion: "Versatil, Dia e Noite",
+    occasion: "Versátil, Dia e Noite",
     volume: "50ml",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_20251102_215741-pu33KEWgvRsni50qqUyr843BA4JFgY.jpg",
   },
   {
     name: "Baby",
-    originalInspiration: "Chloe",
+    originalInspiration: "Chloé",
     category: "Floral Fresco",
     line: "Feminina",
     familyTag: "Floral",
     notes: {
-      top: "Rosa delicada, Peonia fresca",
-      heart: "Lirio do vale, Magnolia",
-      base: "Ambar suave, Almiscar",
+      top: "Rosa delicada, Peônia fresca",
+      heart: "Lírio do vale, Magnólia",
+      base: "Âmbar suave, Almíscar",
     },
     description:
-      "A leveza e sofisticacao reunidas em uma fragrancia atemporal. Baby traz um bouquet floral refinado onde a rosa se revela em sua forma mais delicada e feminina.",
+      "A leveza e sofisticação reunidas em uma fragrância atemporal. Baby traz um bouquet floral refinado onde a rosa se revela em sua forma mais delicada e feminina.",
     intensity: "Moderada",
     fixation: "8-12 horas",
     occasion: "Dia a Dia, Eventos Diurnos",
@@ -91,17 +91,17 @@ const perfumes = [
   },
   {
     name: "Olimpic",
-    originalInspiration: "Olympea",
+    originalInspiration: "Olympéa",
     category: "Floral Salgado",
     line: "Feminina",
-    familyTag: "Aquatico",
+    familyTag: "Aquático",
     notes: {
       top: "Notas marinhas, Sal cristalino",
-      heart: "Florais adocicados, Jasmim d'agua",
-      base: "Ambar, Madeiras claras",
+      heart: "Florais adocicados, Jasmim d'água",
+      base: "Âmbar, Madeiras claras",
     },
     description:
-      "Uma fragrancia de contrastes fascinantes que desafia convencoes. Olimpic harmoniza o frescor salgado das notas aquaticas com florais modernos adocicados.",
+      "Uma fragrância de contrastes fascinantes que desafia convenções. Olimpic harmoniza o frescor salgado das notas aquáticas com florais modernos adocicados.",
     intensity: "Intensa",
     fixation: "12-16 horas",
     occasion: "Noturno, Sofisticado",
@@ -112,16 +112,16 @@ const perfumes = [
   {
     name: "Eter's",
     originalInspiration: "Invictus",
-    category: "Aquatico Amadeirado",
-    line: "Feminina",
-    familyTag: "Aquatico",
+    category: "Aquático Amadeirado",
+    line: "Masculina",
+    familyTag: "Aquático",
     notes: {
       top: "Frescor marinho, Toranja",
-      heart: "Madeiras vibrantes, Notas aromaticas",
+      heart: "Madeiras vibrantes, Notas aromáticas",
       base: "Ambroxan, Vetiver",
     },
     description:
-      "Energia e frescor capturados em uma composicao dinamica. Eter's combina a vitalidade de notas aquaticas com a forca de madeiras aromaticas.",
+      "Energia e frescor capturados em uma composição dinâmica. Eter's combina a vitalidade de notas aquáticas com a força de madeiras aromáticas.",
     intensity: "Moderada a Forte",
     fixation: "10-14 horas",
     occasion: "Esportivo, Dia a Dia",
@@ -138,10 +138,10 @@ const perfumes = [
     notes: {
       top: "Especiarias marcantes, Canela",
       heart: "Couro elegante, Rosa negra",
-      base: "Notas doces, Ambar, Fava tonka",
+      base: "Notas doces, Âmbar, Fava tonka",
     },
     description:
-      "Luxo e ousadia em cada gota. Adien's apresenta uma combinacao irresistivel de especiarias marcantes com couro elegante e toques doces envolventes.",
+      "Luxo e ousadia em cada gota. Adien's apresenta uma combinação irresistível de especiarias marcantes com couro elegante e toques doces envolventes.",
     intensity: "Muito Forte",
     fixation: "16-20 horas",
     occasion: "Noturno, Grande Impacto",
@@ -156,22 +156,22 @@ const inspiracoes = [
     name: "212 VIP",
     brand: "Carolina Herrera",
     family: "Floral Frutado Gourmand",
-    notes: "Maracuja, rum, almiscar branco, baunilha, flores brancas",
+    notes: "Maracujá, rum, almíscar branco, baunilha, flores brancas",
     shortDescription: "Sofisticado e moderno, frutado com toque doce e elegante.",
     fullDescription:
-      "Uma fragrancia que captura a essencia da exclusividade e da vida noturna sofisticada. A combinacao ousada de maracuja exotico com o calor do rum cria uma abertura intrigante que evolui para um coracao de flores brancas delicadas. O fundo de almiscar e baunilha confere sensualidade e fixacao prolongada.",
+      "Uma fragrância que captura a essência da exclusividade e da vida noturna sofisticada. A combinação ousada de maracujá exótico com o calor do rum cria uma abertura intrigante que evolui para um coração de flores brancas delicadas. O fundo de almíscar e baunilha confere sensualidade e fixação prolongada.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/212%20vip-ylZvWoabBOJENGLcEDESLRDUF44B4x.jpeg",
-    tag: "Voce esta na lista.",
+    tag: "Você está na lista.",
   },
   {
     name: "212 VIP Black",
     brand: "Carolina Herrera",
     family: "Amadeirado Especiado",
-    notes: "Anis estrelado, cardamomo, lavanda, rum, cafe, fava tonka, madeira de gaiac",
+    notes: "Anis estrelado, cardamomo, lavanda, rum, café, fava tonka, madeira de guaiac",
     shortDescription: "Marcante e intenso, mistura especiarias com um toque doce envolvente.",
     fullDescription:
-      "A versao mais intensa e magnetica da linha 212 VIP. Abre com a energia pulsante do anis estrelado e cardamomo, envolvidos pela frescura aromatica da lavanda. O coracao revela a profundidade do rum e do cafe, criando uma aura de misterio e poder.",
+      "A versão mais intensa e magnética da linha 212 VIP. Abre com a energia pulsante do anis estrelado e cardamomo, envolvidos pela frescura aromática da lavanda. O coração revela a profundidade do rum e do café, criando uma aura de mistério e poder.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/212%20vip%20black-jZyCf6b6SAExg6vTJJlkVAff7KiiCc.jpeg",
     tag: "Domine a noite.",
@@ -180,10 +180,10 @@ const inspiracoes = [
     name: "Scandal",
     brand: "Jean Paul Gaultier",
     family: "Floral Gourmand",
-    notes: "Mel, gardenia, flor de laranjeira, caramelo, patchouli",
+    notes: "Mel, gardênia, flor de laranjeira, caramelo, patchouli",
     shortDescription: "Doce e sofisticado, com mel sensual e flores ricas.",
     fullDescription:
-      "Uma declaracao de ousadia e feminilidade em sua forma mais provocante. O mel sensual entrelaca-se com a opulencia da gardenia e a delicadeza da flor de laranjeira, criando um bouquet que e ao mesmo tempo doce e misterioso.",
+      "Uma declaração de ousadia e feminilidade em sua forma mais provocante. O mel sensual entrelaça-se com a opulência da gardênia e a delicadeza da flor de laranjeira, criando um bouquet que é ao mesmo tempo doce e misterioso.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jean%20paul%20scandal-hU6rrYjGpeCtI3JPbRKOyvxceXgIuY.jpeg",
     tag: "Notas doces que seduzem e encantam.",
@@ -191,11 +191,11 @@ const inspiracoes = [
   {
     name: "Erba Pura",
     brand: "Xerjoff",
-    family: "Citrico Amadeirado",
-    notes: "Laranja, limao siciliano, bergamota, frutas brancas, acorde de mel, ambar, baunilha, madeiras claras",
-    shortDescription: "Frescor citrico com docura suave e fundo aconchegante.",
+    family: "Cítrico Amadeirado",
+    notes: "Laranja, limão siciliano, bergamota, frutas brancas, acorde de mel, âmbar, baunilha, madeiras claras",
+    shortDescription: "Frescor cítrico com doçura suave e fundo aconchegante.",
     fullDescription:
-      "Uma obra-prima da perfumaria italiana de nicho que eleva os citricos a um patamar de luxo absoluto. A explosao inicial de laranja, limao siciliano e bergamota transmite vitalidade e frescor mediterraneo.",
+      "Uma obra-prima da perfumaria italiana de nicho que eleva os cítricos a um patamar de luxo absoluto. A explosão inicial de laranja, limão siciliano e bergamota transmite vitalidade e frescor mediterrâneo.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/erba%20pura-k8oeS3vQHuX2GTjNzNWqfHPofzmnPc.jpeg",
     tag: "O poder da fruta envolto em luxo.",
@@ -203,23 +203,35 @@ const inspiracoes = [
   {
     name: "Le Male Le Parfum",
     brand: "Jean Paul Gaultier",
-    family: "Fougere Oriental",
-    notes: "Menta intensa, lavanda, canela, baunilha cremosa, fava tonka, ambar",
+    family: "Fougère Oriental",
+    notes: "Menta intensa, lavanda, canela, baunilha cremosa, fava tonka, âmbar",
     shortDescription: "Charmoso e profundo, com menta marcante e calor doce de baunilha.",
     fullDescription:
-      "A evolucao mais intensa e sedutora do classico Le Male. A menta irrompe com frescor vigoroso, rapidamente abraçada pela lavanda aromatica e pela canela quente.",
+      "A evolução mais intensa e sedutora do clássico Le Male. A menta irrompe com frescor vigoroso, rapidamente abraçada pela lavanda aromática e pela canela quente.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jean%20paul%20gaultier-DPVqCAZO2ZT19SnUCVZi4W50WXBX73.jpeg",
     tag: "The intense new fragrance.",
   },
   {
+    name: "Ferrari Black",
+    brand: "Ferrari",
+    family: "Aromático Frutado",
+    notes: "Maçã, ameixa, limão, canela, cardamomo, jasmim, baunilha, âmbar, almíscar, cedro",
+    shortDescription: "Frutado e envolvente, com toque quente de baunilha e especiarias.",
+    fullDescription:
+      "Uma fragrância que combina frescor frutado com especiarias quentes. A abertura de maçã e ameixa é complementada por notas de canela e cardamomo, evoluindo para um fundo cremoso de baunilha e âmbar.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img1-kJDD4JD5mmBgOKNBSOMHEGQ4Apr5WL.jpeg",
+    tag: "Velocidade e elegância.",
+  },
+  {
     name: "CK One",
     brand: "Calvin Klein",
-    family: "Citrico Aromatico",
-    notes: "Limao, abacaxi, cha verde, jasmim, almiscar",
-    shortDescription: "Citrico aromatico e unissex. Refrescante, limpo e versatil.",
+    family: "Cítrico Aromático",
+    notes: "Limão, bergamota, abacaxi, papaia, jasmim, rosa, noz-moscada, violeta, almíscar, cedro, musgo de carvalho",
+    shortDescription: "Fresco e leve, um clássico cítrico limpo e moderno.",
     fullDescription:
-      "Um marco na historia da perfumaria moderna e o pioneiro absoluto das fragancias unissex. CK One revolucionou o mercado ao provar que frescor e elegancia nao precisam de genero.",
+      "Um marco na história da perfumaria moderna e o pioneiro absoluto das fragrâncias unissex. CK One revolucionou o mercado ao provar que frescor e elegância não precisam de gênero.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img1-kJDD4JD5mmBgOKNBSOMHEGQ4Apr5WL.jpeg",
     tag: "Frescor que une estilos.",
@@ -227,23 +239,23 @@ const inspiracoes = [
   {
     name: "Fantasy",
     brand: "Britney Spears",
-    family: "Gourmand Frutado",
-    notes: "Kiwi, lichia vermelha, cupcake, chocolate branco, almiscar",
-    shortDescription: "Doce, envolvente e divertido. Frutado com acordes gourmand cremosos.",
+    family: "Floral Gourmand",
+    notes: "Kiwi, lichia, marmelo, chocolate branco, cupcake, orquídea, almíscar, raiz de lírio, notas amadeiradas",
+    shortDescription: "Doce e divertido, com frutas suculentas e toque cremoso.",
     fullDescription:
-      "Uma fragrancia que transforma a doçura em arte olfativa e celebra a feminilidade jovial e desinibida.",
+      "Uma fragrância que transforma a doçura em arte olfativa e celebra a feminilidade jovial e desinibida. Frutas exóticas se misturam com chocolate branco e cupcake.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img%202-AOlsvcEMEo6FCdcwbmH5wQGLjvsEUl.jpeg",
-    tag: "Doce e inesquecivel.",
+    tag: "Doce e inesquecível.",
   },
   {
     name: "Baccarat Rouge 540",
     brand: "Maison Francis Kurkdjian",
-    family: "Ambarado Floral",
-    notes: "Açafrao, jasmim, ambar cinzento, notas amadeiradas",
-    shortDescription: "Luxuoso e marcante, docura ambarada com sofisticacao absoluta.",
+    family: "Oriental Ambarado",
+    notes: "Açafrão, jasmim, âmbar cinzento, madeira de âmbar, resina de abeto, cedro",
+    shortDescription: "Luxuoso e marcante, com aura ambarada sofisticada.",
     fullDescription:
-      "Considerado uma das maiores criações da perfumaria contemporanea, Baccarat Rouge 540 e sinonimo de luxo e exclusividade.",
+      "Considerado uma das maiores criações da perfumaria contemporânea, Baccarat Rouge 540 é sinônimo de luxo e exclusividade. Açafrão e jasmim se fundem com âmbar e madeiras preciosas.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img3-Ckg1LMknN4pjBINjycyZXyovWlfBoi.jpeg",
     tag: "O luxo em sua forma mais pura.",
@@ -251,35 +263,35 @@ const inspiracoes = [
   {
     name: "Light Blue",
     brand: "Dolce & Gabbana",
-    family: "Citrico Fresco",
-    notes: "Limao siciliano, maça verde, cedro, almiscar",
-    shortDescription: "Refrescante e vibrante, a sensacao do verao mediterraneo.",
+    family: "Cítrico Frutado",
+    notes: "Limão siciliano, maçã verde, cedro, bambu, jasmim, rosa branca, âmbar, almíscar",
+    shortDescription: "Refrescante e vibrante, inspirado no verão mediterrâneo.",
     fullDescription:
-      "Uma ode ao Mediterraneo e a dolce vita italiana. Light Blue captura a essencia dos dias ensolarados na costa de Capri.",
+      "Uma ode ao Mediterrâneo e à dolce vita italiana. Light Blue captura a essência dos dias ensolarados na costa de Capri com cítricos vibrantes e frescor incomparável.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img4-idnaRLlo58jbKTixmbzl2W6xtHxv0n.jpeg",
-    tag: "O frescor do Mediterraneo.",
+    tag: "O frescor do Mediterrâneo.",
   },
   {
     name: "MYSLF",
     brand: "Yves Saint Laurent",
-    family: "Amadeirado Floral",
-    notes: "Bergamota, flor de laranjeira, ambroxan, madeiras",
-    shortDescription: "Moderno e intenso, frescor citrico com fundo amadeirado envolvente.",
+    family: "Floral Amadeirado",
+    notes: "Bergamota, flor de laranjeira, patchouli, ambrofix, madeiras",
+    shortDescription: "Moderno e elegante, floral luminoso com fundo amadeirado.",
     fullDescription:
-      "Uma declaracao de identidade masculina contemporanea assinada pela iconica maison francesa.",
+      "Uma declaração de identidade masculina contemporânea assinada pela icônica maison francesa. O frescor da bergamota encontra a luminosidade da flor de laranjeira sobre um fundo amadeirado.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img5-X5juobaFfJXwASD7AjCwLR3vjGlSJ2.jpeg",
-    tag: "Sou todas as minhas versoes.",
+    tag: "Sou todas as minhas versões.",
   },
   {
-    name: "Chloe Eau de Parfum",
-    brand: "Chloe",
+    name: "Chloé Eau de Parfum",
+    brand: "Chloé",
     family: "Floral Powdery",
-    notes: "Peonia, rosa, lichia, ambar",
+    notes: "Peônia, rosa, lichia, âmbar",
     shortDescription: "Delicado e elegante, a rosa de forma moderna e sofisticada.",
     fullDescription:
-      "Uma celebracao da feminilidade em sua forma mais pura e refinada. Chloe Eau de Parfum apresenta a peonia e a rosa em um dueto floral que exala naturalidade e charme inato.",
+      "Uma celebração da feminilidade em sua forma mais pura e refinada. Chloé Eau de Parfum apresenta a peônia e a rosa em um dueto floral que exala naturalidade e charme inato.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-L9VFM34iS2KvoKWsZN9pBCs6qrgI4i.jpeg",
     tag: "Graciosidade em cada nota.",
@@ -287,14 +299,110 @@ const inspiracoes = [
   {
     name: "Invictus",
     brand: "Paco Rabanne",
-    family: "Aquatico Amadeirado",
-    notes: "Toranja, notas marinhas, louro, ambar cinzento, madeira guaiac",
-    shortDescription: "Fresco e energetico, notas aquaticas com fundo adocicado e ambarado.",
+    family: "Amadeirado Aquático",
+    notes: "Toranja, notas marinhas, folha de louro, jasmim, âmbar cinzento, patchouli, madeira guaiac",
+    shortDescription: "Frescor marinho com fundo amadeirado intenso e masculino.",
     fullDescription:
-      "Uma fragrancia que evoca a sensacao de vitoria e conquista com cada borrifada.",
+      "Uma fragrância que evoca a sensação de vitória e conquista com cada borrifada. Notas marinhas se fundem com madeiras intensas para um resultado poderoso.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/erba%20pura-k8oeS3vQHuX2GTjNzNWqfHPofzmnPc.jpeg",
-    tag: "A fragrancia da conquista.",
+    tag: "A fragrância da conquista.",
+  },
+  {
+    name: "Fakhar Rose",
+    brand: "Lattafa",
+    family: "Floral Frutado",
+    notes: "Frutas vermelhas, romã, rosa, jasmim, lírio, almíscar, baunilha, madeiras",
+    shortDescription: "Floral elegante com toque doce e feminino.",
+    fullDescription:
+      "Uma fragrância que celebra a rosa em sua forma mais luxuosa. Frutas vermelhas e romã abrem caminho para um coração floral rico, finalizado com baunilha e madeiras suaves.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-L9VFM34iS2KvoKWsZN9pBCs6qrgI4i.jpeg",
+    tag: "Elegância floral.",
+  },
+  {
+    name: "Eclaire",
+    brand: "Lattafa",
+    family: "Gourmand",
+    notes: "Caramelo, açúcar, leite, mel, baunilha, praline, almíscar",
+    shortDescription: "Doce e cremoso, lembrando sobremesas sofisticadas.",
+    fullDescription:
+      "Uma fragrância indulgente que captura a essência de sobremesas artesanais. Caramelo e açúcar se misturam com leite e mel, criando uma experiência olfativa irresistível.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img%202-AOlsvcEMEo6FCdcwbmH5wQGLjvsEUl.jpeg",
+    tag: "Doçura sofisticada.",
+  },
+  {
+    name: "Good Girl",
+    brand: "Carolina Herrera",
+    family: "Oriental Floral",
+    notes: "Amêndoa, café, jasmim sambac, tuberosa, cacau, fava tonka, baunilha",
+    shortDescription: "Intenso e sedutor, com contraste entre doce e floral.",
+    fullDescription:
+      "Uma fragrância que celebra a dualidade feminina. O café e a amêndoa encontram flores sensuais como jasmim e tuberosa, finalizando com a cremosidade do cacau e baunilha.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/212%20vip-ylZvWoabBOJENGLcEDESLRDUF44B4x.jpeg",
+    tag: "É tão bom ser má.",
+  },
+  {
+    name: "Club de Nuit Intense Man",
+    brand: "Armaf",
+    family: "Cítrico Amadeirado",
+    notes: "Limão, abacaxi, bergamota, maçã, rosa, jasmim, bétula, almíscar, âmbar, baunilha, patchouli",
+    shortDescription: "Marcante e elegante, com frescor frutado e fundo intenso.",
+    fullDescription:
+      "Uma fragrância que combina frescor cítrico com profundidade amadeirada. A abertura frutada evolui para um coração floral refinado e finaliza com madeiras e âmbar.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/212%20vip%20black-jZyCf6b6SAExg6vTJJlkVAff7KiiCc.jpeg",
+    tag: "Elegância noturna.",
+  },
+  {
+    name: "Asad",
+    brand: "Lattafa",
+    family: "Oriental Especiado",
+    notes: "Pimenta preta, abacaxi, tabaco, café, patchouli, íris, baunilha, âmbar, madeira seca",
+    shortDescription: "Forte e sofisticado, com especiarias quentes e baunilha.",
+    fullDescription:
+      "Uma fragrância poderosa que combina especiarias intensas com notas de café e tabaco. O fundo cremoso de baunilha e âmbar proporciona calor e sofisticação.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jean%20paul%20gaultier-DPVqCAZO2ZT19SnUCVZi4W50WXBX73.jpeg",
+    tag: "Força e determinação.",
+  },
+  {
+    name: "Aventus for Her",
+    brand: "Creed",
+    family: "Chipre Frutado",
+    notes: "Maçã verde, bergamota, limão, pimenta rosa, rosa, sândalo, almíscar, âmbar, pêssego, ylang-ylang",
+    shortDescription: "Feminino e poderoso, com frutas frescas e fundo elegante.",
+    fullDescription:
+      "Uma fragrância que celebra a mulher moderna e confiante. Frutas frescas e cítricas se encontram com um coração floral sofisticado e um fundo sensual de madeiras e almíscar.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-L9VFM34iS2KvoKWsZN9pBCs6qrgI4i.jpeg",
+    tag: "Poder feminino.",
+  },
+  {
+    name: "Idôle",
+    brand: "Lancôme",
+    family: "Floral Moderno",
+    notes: "Bergamota, pera, rosa turca, rosa de maio, jasmim, almíscar branco, baunilha",
+    shortDescription: "Floral delicado e luminoso, elegante e contemporâneo.",
+    fullDescription:
+      "Uma fragrância que representa a nova geração de mulheres. O frescor da bergamota e pera encontra a delicadeza das rosas, finalizado com almíscar branco e baunilha suave.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-L9VFM34iS2KvoKWsZN9pBCs6qrgI4i.jpeg",
+    tag: "Seja sua própria inspiração.",
+  },
+  {
+    name: "Olympéa",
+    brand: "Paco Rabanne",
+    family: "Oriental Floral",
+    notes: "Tangerina verde, jasmim aquático, baunilha salgada, âmbar cinzento, madeira de cashmere, sândalo",
+    shortDescription: "Doce e marcante, com contraste entre baunilha e sal marinho.",
+    fullDescription:
+      "Uma fragrância divina que combina notas aquáticas com a doçura da baunilha salgada. O jasmim aquático traz frescor, enquanto o âmbar e sândalo garantem sensualidade.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img4-idnaRLlo58jbKTixmbzl2W6xtHxv0n.jpeg",
+    tag: "Deusa entre mortais.",
   },
 ]
 
@@ -433,11 +541,11 @@ function HeroSection({ onNavigate }: { onNavigate: (view: string) => void }) {
 
         {/* Tagline */}
         <p className="opacity-0 animate-fade-in-up stagger-3 text-gold font-serif italic text-xl md:text-2xl lg:text-3xl mb-4 tracking-wide">
-          Perfumes que deixam memorias no ar
+          Perfumes que deixam memórias no ar
         </p>
 
         <p className="opacity-0 animate-fade-in-up stagger-4 text-background/60 text-sm md:text-base max-w-xl mx-auto leading-relaxed font-sans">
-          Alta perfumaria artesanal com fragancias exclusivas
+          Alta perfumaria artesanal com fragrâncias exclusivas
         </p>
 
         {/* CTA Buttons */}
@@ -446,7 +554,7 @@ function HeroSection({ onNavigate }: { onNavigate: (view: string) => void }) {
             onClick={() => onNavigate("perfumes")}
             className="px-8 py-4 bg-gold text-foreground font-sans font-medium text-sm tracking-wider uppercase hover:bg-gold-light transition-all duration-300 min-w-[220px]"
           >
-            Explorar Catalogo
+            Explorar Catálogo
           </button>
           <button
             onClick={() => onNavigate("landing")}
@@ -481,8 +589,8 @@ function AboutSection() {
         >
           <div className="relative aspect-[3/4] max-w-sm mx-auto img-hover-zoom">
             <Image
-              src="/classic-elegant-perfume-collection.jpg"
-              alt="Colecao Gomez Bellezza"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_2cth692cth692cth-6eCjVqLrEiJl5t2XshGW1Ab23V2iYc.png"
+              alt="Coleção Gomez Bellezza"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 40vw"
@@ -497,17 +605,17 @@ function AboutSection() {
         >
           <p className="text-gold text-xs tracking-luxury uppercase font-sans mb-4">Sobre a Marca</p>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground leading-tight mb-6 text-balance">
-            Cada fragrancia e criada como uma obra de arte
+            Cada fragrância é criada como uma obra de arte
           </h2>
           <div className="w-12 h-px bg-gold mb-8" />
           <p className="text-muted-foreground leading-relaxed text-base md:text-lg mb-6">
-            Na Gomez Bellezza, cada fragrancia e criada como uma obra de arte. Desenvolvemos perfumes
-            artesanais que despertam sensacoes, marcam momentos e eternizam memorias.
+            Na Gomez Bellezza, cada fragrância é criada como uma obra de arte. Desenvolvemos perfumes
+            artesanais que despertam sensações, marcam momentos e eternizam memórias.
           </p>
           <p className="text-muted-foreground/80 leading-relaxed text-sm md:text-base">
-            Nossas composicoes utilizam ingredientes selecionados e concentracoes premium entre EDP e
-            Parfum, proporcionando fixacao excepcional de ate 20 horas. Uma marca que transcende o
-            ordinario e celebra a arte da perfumaria.
+            Nossas composições utilizam ingredientes selecionados e concentrações premium entre EDP e
+            Parfum, proporcionando fixação excepcional de até 20 horas. Uma marca que transcende o
+            ordinário e celebra a arte da perfumaria.
           </p>
         </div>
       </div>
@@ -524,29 +632,29 @@ function CollectionsSection({ onNavigate }: { onNavigate: (view: string) => void
   const collections = [
     {
       name: "Linha Feminina",
-      description: "Elegancia e sofisticacao em quatro criacoes florais e sensuais",
+      description: "Elegância e sofisticação em quatro criações florais e sensuais",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_20251102_215947-EcjeTeslQzZnvkliRLZMNxdCTKA0IJ.jpg",
-      count: "4 fragancias",
+      count: "4 fragrâncias",
     },
     {
       name: "Linha Masculina",
-      description: "Presenca marcante e sofisticacao em composicoes intensas",
+      description: "Presença marcante e sofisticação em composições intensas",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_20251102_215629-7tY96GYes0QsyBYT94SpfiJ5Wg3owy.jpg",
-      count: "2 fragancias",
+      count: "2 fragrâncias",
     },
     {
       name: "Linha Exclusiva",
-      description: "Interpretacoes artesanais das maiores fragancias da perfumaria mundial",
+      description: "Interpretações artesanais das maiores fragrâncias da perfumaria mundial",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img3-Ckg1LMknN4pjBINjycyZXyovWlfBoi.jpeg",
-      count: "12 inspiracoes",
+      count: "12 inspirações",
     },
     {
-      name: "Edicao Limitada",
-      description: "Criacoes sazonais exclusivas em tiragem reduzida",
-      image: "/gold-luxury-perfume-bottle.jpg",
+      name: "Edição Limitada",
+      description: "Criações sazonais exclusivas em tiragem reduzida",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_2cth692cth692cth-6eCjVqLrEiJl5t2XshGW1Ab23V2iYc.png",
       count: "Em breve",
     },
   ]
@@ -557,7 +665,7 @@ function CollectionsSection({ onNavigate }: { onNavigate: (view: string) => void
         <div
           className={`text-center mb-16 transition-all duration-700 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
-          <p className="text-gold text-xs tracking-luxury uppercase font-sans mb-4">Colecoes</p>
+          <p className="text-gold text-xs tracking-luxury uppercase font-sans mb-4">Coleções</p>
           <h2 className="font-serif text-3xl md:text-5xl text-background mb-6 text-balance">
             Nossas Linhas
           </h2>
@@ -565,7 +673,7 @@ function CollectionsSection({ onNavigate }: { onNavigate: (view: string) => void
             <div className="w-16 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
           </div>
           <p className="text-background/50 max-w-2xl mx-auto leading-relaxed">
-            Descubra colecoes curadas com personalidade unica, cada uma expressando uma faceta da arte da perfumaria.
+            Descubra coleções curadas com personalidade única, cada uma expressando uma faceta da arte da perfumaria.
           </p>
         </div>
 
@@ -619,7 +727,7 @@ function FeaturedPerfumesSection({ onNavigate }: { onNavigate: (view: string) =>
         >
           <p className="text-gold text-xs tracking-luxury uppercase font-sans mb-4">Destaques</p>
           <h2 className="font-serif text-3xl md:text-5xl text-foreground mb-6 text-balance">
-            Fragancias em Destaque
+            Fragrâncias em Destaque
           </h2>
           <div className="flex justify-center">
             <div className="w-16 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
@@ -668,7 +776,7 @@ function FeaturedPerfumesSection({ onNavigate }: { onNavigate: (view: string) =>
             onClick={() => onNavigate("perfumes")}
             className="px-10 py-4 border border-foreground text-foreground font-sans text-sm tracking-wider uppercase hover:bg-foreground hover:text-background transition-all duration-300"
           >
-            Ver Catalogo Completo
+            Ver Catálogo Completo
           </button>
         </div>
       </div>
@@ -683,10 +791,10 @@ function DifferentialsSection() {
   const { ref, isInView } = useInView(0.2)
 
   const differentials = [
-    { icon: <Droplets className="w-6 h-6" />, title: "Producao Artesanal", description: "Cada frasco e produzido com tecnicas de alta perfumaria" },
-    { icon: <Gem className="w-6 h-6" />, title: "Ingredientes Selecionados", description: "Materias-primas nobres de primeira qualidade" },
-    { icon: <Clock className="w-6 h-6" />, title: "Alta Fixacao", description: "Concentracoes premium com duracao de 8 a 20 horas" },
-    { icon: <Sparkles className="w-6 h-6" />, title: "Exclusividade Limitada", description: "Producao em tiragem reduzida para colecoes unicas" },
+    { icon: <Droplets className="w-6 h-6" />, title: "Produção Artesanal", description: "Cada frasco é produzido com técnicas de alta perfumaria" },
+    { icon: <Gem className="w-6 h-6" />, title: "Ingredientes Selecionados", description: "Matérias-primas nobres de primeira qualidade" },
+    { icon: <Clock className="w-6 h-6" />, title: "Alta Fixação", description: "Concentrações premium com duração de 8 a 20 horas" },
+    { icon: <Sparkles className="w-6 h-6" />, title: "Exclusividade Limitada", description: "Produção em tiragem reduzida para coleções únicas" },
   ]
 
   return (
@@ -727,10 +835,10 @@ function CTASection() {
           <div className="w-16 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
         </div>
         <h2 className="font-serif text-3xl md:text-5xl text-background mb-6 text-balance italic">
-          Descubra a fragrancia que vai marcar sua historia
+          Descubra a fragrância que vai marcar sua história
         </h2>
         <p className="text-background/50 mb-10 max-w-xl mx-auto leading-relaxed">
-          Atendimento personalizado e consultoria olfativa para encontrar o perfume ideal para voce.
+          Atendimento personalizado e consultoria olfativa para encontrar o perfume ideal para você.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
@@ -817,7 +925,7 @@ function PerfumesView({ onBack }: { onBack: () => void }) {
   const [activeFamily, setActiveFamily] = useState("Todas")
 
   const categories = ["Todas", "Feminina", "Masculina"]
-  const families = ["Todas", "Floral", "Especiado", "Aquatico", "Oriental"]
+  const families = ["Todas", "Floral", "Especiado", "Aquático", "Oriental"]
 
   const filtered = perfumes.filter((p) => {
     const catMatch = activeCategory === "Todas" || p.line === activeCategory
@@ -827,23 +935,23 @@ function PerfumesView({ onBack }: { onBack: () => void }) {
 
   return (
     <div className="min-h-screen bg-background">
-      <PremiumHeader title="Catalogo de Perfumes" onBack={onBack} />
+      <PremiumHeader title="Catálogo de Perfumes" onBack={onBack} />
 
       <div className="max-w-7xl mx-auto px-6 py-12">
         {/* Intro */}
         <div className="text-center mb-12 max-w-2xl mx-auto">
           <p className="text-gold text-xs tracking-luxury uppercase font-sans mb-4">
-            {perfumes.length} fragancias exclusivas
+            {perfumes.length} fragrâncias exclusivas
           </p>
           <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-4 text-balance">
-            Nossa Colecao Completa
+            Nossa Coleção Completa
           </h2>
           <div className="flex justify-center mb-6">
             <div className="w-16 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
           </div>
           <p className="text-muted-foreground leading-relaxed">
-            Cada fragrancia Gomez Bellezza e uma obra de alta perfumaria artesanal, criada com
-            ingredientes nobres e concentracao premium.
+            Cada fragrância Gomez Bellezza é uma obra de alta perfumaria artesanal, criada com
+            ingredientes nobres e concentração premium.
           </p>
         </div>
 
@@ -873,7 +981,7 @@ function PerfumesView({ onBack }: { onBack: () => void }) {
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-xs text-muted-foreground">Familia:</span>
+              <span className="text-xs text-muted-foreground">Família:</span>
               <div className="flex gap-2 flex-wrap justify-center">
                 {families.map((fam) => (
                   <button
@@ -963,7 +1071,7 @@ function PerfumeCard({
           onClick={() => setExpanded(!expanded)}
           className="text-gold text-xs tracking-wider uppercase hover:underline mb-4 flex items-center gap-1"
         >
-          Piramide Olfativa
+          Pirâmide Olfativa
           <ChevronRight className={`w-3 h-3 transition-transform ${expanded ? "rotate-90" : ""}`} />
         </button>
 
@@ -974,7 +1082,7 @@ function PerfumeCard({
               <p className="text-foreground text-xs">{perfume.notes.top}</p>
             </div>
             <div>
-              <p className="text-[10px] text-gold uppercase tracking-wider mb-1">Notas de Coracao</p>
+              <p className="text-[10px] text-gold uppercase tracking-wider mb-1">Notas de Coração</p>
               <p className="text-foreground text-xs">{perfume.notes.heart}</p>
             </div>
             <div>
@@ -987,7 +1095,7 @@ function PerfumeCard({
         {/* Details */}
         <div className="border-t border-border pt-4 space-y-2 mb-5">
           <div className="flex justify-between text-xs">
-            <span className="text-muted-foreground">Fixacao</span>
+            <span className="text-muted-foreground">Fixação</span>
             <span className="text-foreground font-medium">{perfume.fixation}</span>
           </div>
           <div className="flex justify-between text-xs">
@@ -999,14 +1107,14 @@ function PerfumeCard({
             <span className="text-foreground font-medium">{perfume.volume}</span>
           </div>
           <div className="flex justify-between text-xs">
-            <span className="text-muted-foreground">Ocasiao</span>
+            <span className="text-muted-foreground">Ocasião</span>
             <span className="text-foreground font-medium">{perfume.occasion}</span>
           </div>
         </div>
 
         {/* WhatsApp CTA */}
         <a
-          href={`${WHATSAPP_LINK}?text=Ola! Tenho interesse no perfume ${perfume.name}.`}
+          href={`${WHATSAPP_LINK}?text=Olá! Tenho interesse no perfume ${perfume.name}.`}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 w-full py-3 bg-foreground text-background text-sm font-sans tracking-wider uppercase hover:bg-gold hover:text-foreground transition-all duration-300"
@@ -1025,23 +1133,23 @@ function PerfumeCard({
 function InspiracoesView({ onBack }: { onBack: () => void }) {
   return (
     <div className="min-h-screen bg-background">
-      <PremiumHeader title="Inspiracoes Olfativas" onBack={onBack} />
+      <PremiumHeader title="Inspirações Olfativas" onBack={onBack} />
 
       <div className="px-6 py-12 max-w-7xl mx-auto">
         {/* Intro */}
         <div className="text-center mb-20 max-w-3xl mx-auto">
           <p className="text-gold text-xs tracking-luxury uppercase font-sans mb-4">
-            12 fragancias de referencia
+            12 fragrâncias de referência
           </p>
           <h2 className="font-serif text-3xl md:text-5xl text-foreground leading-tight mb-6 text-balance">
-            Grandes Fragancias, Uma Interpretacao Unica
+            Grandes Fragrâncias, Uma Interpretação Única
           </h2>
           <div className="flex justify-center mb-6">
             <div className="w-16 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
           </div>
           <p className="text-muted-foreground leading-relaxed">
-            A Gomez Bellezza se inspira nas maiores criacoes da perfumaria mundial para desenvolver
-            interpretacoes artesanais com identidade propria.
+            A Gomez Bellezza se inspira nas maiores criações da perfumaria mundial para desenvolver
+            interpretações artesanais com identidade própria.
           </p>
         </div>
 
@@ -1124,7 +1232,7 @@ function InspiracaoCard({
             <span className="text-sm text-foreground">{perfume.notes}</span>
           </div>
           <div className="flex items-start gap-3">
-            <span className="text-[10px] text-gold uppercase tracking-luxury min-w-[60px] pt-0.5">Familia</span>
+            <span className="text-[10px] text-gold uppercase tracking-luxury min-w-[60px] pt-0.5">Família</span>
             <span className="text-sm text-foreground">{perfume.family}</span>
           </div>
         </div>
@@ -1132,7 +1240,7 @@ function InspiracaoCard({
         <p className="font-serif text-lg italic text-muted-foreground mb-6">{`"${perfume.tag}"`}</p>
 
         <a
-          href={`${WHATSAPP_LINK}?text=Ola! Gostaria de saber sobre a inspiracao ${perfume.name}.`}
+          href={`${WHATSAPP_LINK}?text=Olá! Gostaria de saber sobre a inspiração ${perfume.name}.`}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background text-sm font-sans tracking-wider uppercase hover:bg-gold hover:text-foreground transition-all duration-300"
@@ -1166,11 +1274,11 @@ function LandingPageView({ onBack }: { onBack: () => void }) {
             <div className="w-16 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
           </div>
           <p className="font-serif text-xl md:text-2xl text-gold italic mb-4">
-            Perfumes que deixam memorias no ar
+            Perfumes que deixam memórias no ar
           </p>
           <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Alta perfumaria artesanal com exclusividade em cada fragrancia. Criacoes olfativas que
-            transformam momentos em lembrancas inesqueciveis.
+            Alta perfumaria artesanal com exclusividade em cada fragrância. Criações olfativas que
+            transformam momentos em lembranças inesquecíveis.
           </p>
         </div>
       </section>
@@ -1185,9 +1293,9 @@ function LandingPageView({ onBack }: { onBack: () => void }) {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { num: "I", title: "Artesanal", text: "Cada perfume e desenvolvido com tecnicas artesanais de alta perfumaria, garantindo qualidade e exclusividade em cada frasco." },
-              { num: "II", title: "Fixacao Excepcional", text: "Concentracoes premium entre EDP e Parfum, proporcionando fixacao de 8 a 20 horas com projecao marcante." },
-              { num: "III", title: "Ingredientes Nobres", text: "Utilizamos apenas materias-primas de primeira qualidade, selecionadas criteriosamente para criar composicoes sofisticadas." },
+              { num: "I", title: "Artesanal", text: "Cada perfume é desenvolvido com técnicas artesanais de alta perfumaria, garantindo qualidade e exclusividade em cada frasco." },
+              { num: "II", title: "Fixação Excepcional", text: "Concentrações premium entre EDP e Parfum, proporcionando fixação de 8 a 20 horas com projeção marcante." },
+              { num: "III", title: "Ingredientes Nobres", text: "Utilizamos apenas matérias-primas de primeira qualidade, selecionadas criteriosamente para criar composições sofisticadas." },
             ].map((item, i) => (
               <div key={i} className="text-center p-6">
                 <div className="w-14 h-14 rounded-full border border-gold/30 flex items-center justify-center mx-auto mb-4">
@@ -1204,7 +1312,7 @@ function LandingPageView({ onBack }: { onBack: () => void }) {
       {/* Piramide e Familias Olfativas */}
       <section className="py-16 px-6">
         <div className="max-w-6xl mx-auto">
-          <p className="text-gold text-xs tracking-luxury uppercase font-sans text-center mb-4">Educacao Olfativa</p>
+          <p className="text-gold text-xs tracking-luxury uppercase font-sans text-center mb-4">Educação Olfativa</p>
           <h2 className="font-serif text-3xl md:text-4xl text-center mb-4 text-foreground">
             Entendendo a Perfumaria
           </h2>
@@ -1212,19 +1320,19 @@ function LandingPageView({ onBack }: { onBack: () => void }) {
             <div className="w-16 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
           </div>
           <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            A perfumaria e uma arte milenar que combina ciencia e criatividade. Compreender suas bases
-            permite apreciar plenamente cada criacao olfativa.
+            A perfumaria é uma arte milenar que combina ciência e criatividade. Compreender suas bases
+            permite apreciar plenamente cada criação olfativa.
           </p>
 
           <div className="grid md:grid-cols-2 gap-12">
-            {/* Piramide */}
+            {/* Pirâmide */}
             <div>
-              <h3 className="font-serif text-2xl text-foreground mb-6">Piramide Olfativa</h3>
+              <h3 className="font-serif text-2xl text-foreground mb-6">Pirâmide Olfativa</h3>
               <div className="space-y-5">
                 {[
-                  { label: "Notas de Saida (Topo)", text: "Primeira impressao do perfume. Duram de 15 minutos a 2 horas. Notas citricas, frescas e leves." },
-                  { label: "Notas de Coracao (Corpo)", text: "O verdadeiro carater do perfume. Duram de 3 a 5 horas. Florais, especiarias e acordes aromaticos." },
-                  { label: "Notas de Fundo (Base)", text: "A assinatura duradoura. Permanecem por mais de 5 horas. Madeiras, ambar, musgo e acordes profundos." },
+                  { label: "Notas de Saída (Topo)", text: "Primeira impressão do perfume. Duram de 15 minutos a 2 horas. Notas cítricas, frescas e leves." },
+                  { label: "Notas de Coração (Corpo)", text: "O verdadeiro caráter do perfume. Duram de 3 a 5 horas. Florais, especiarias e acordes aromáticos." },
+                  { label: "Notas de Fundo (Base)", text: "A assinatura duradoura. Permanecem por mais de 5 horas. Madeiras, âmbar, musgo e acordes profundos." },
                 ].map((note, i) => (
                   <div key={i} className="border-l-2 border-gold/40 pl-5">
                     <h4 className="font-medium text-foreground mb-1">{note.label}</h4>
@@ -1234,16 +1342,16 @@ function LandingPageView({ onBack }: { onBack: () => void }) {
               </div>
             </div>
 
-            {/* Familias */}
+            {/* Famílias */}
             <div>
-              <h3 className="font-serif text-2xl text-foreground mb-6">Familias Olfativas</h3>
+              <h3 className="font-serif text-2xl text-foreground mb-6">Famílias Olfativas</h3>
               <div className="space-y-3">
                 {[
-                  { name: "Floral", desc: "Rosa, jasmim, lirio. Elegancia atemporal e feminilidade classica." },
-                  { name: "Oriental", desc: "Especiarias, ambar, baunilha. Luxo, opulencia e sensualidade." },
-                  { name: "Amadeirado", desc: "Sandalo, cedro, vetiver. Sofisticacao terrosa e elegancia." },
-                  { name: "Aquatico / Fresco", desc: "Notas marinhas, citricos. Energia e modernidade." },
-                  { name: "Gourmand", desc: "Caramelo, mel, baunilha. Docura envolvente e sensualidade." },
+                  { name: "Floral", desc: "Rosa, jasmim, lírio. Elegância atemporal e feminilidade clássica." },
+                  { name: "Oriental", desc: "Especiarias, âmbar, baunilha. Luxo, opulência e sensualidade." },
+                  { name: "Amadeirado", desc: "Sândalo, cedro, vetiver. Sofisticação terrosa e elegância." },
+                  { name: "Aquático / Fresco", desc: "Notas marinhas, cítricos. Energia e modernidade." },
+                  { name: "Gourmand", desc: "Caramelo, mel, baunilha. Doçura envolvente e sensualidade." },
                 ].map((fam, i) => (
                   <div key={i} className="bg-card border border-border p-4">
                     <h4 className="font-medium text-foreground mb-1">{fam.name}</h4>
@@ -1254,9 +1362,9 @@ function LandingPageView({ onBack }: { onBack: () => void }) {
             </div>
           </div>
 
-          {/* Concentracoes */}
+          {/* Concentrações */}
           <div className="mt-12 bg-card border border-border p-8">
-            <h3 className="font-serif text-2xl text-foreground mb-6 text-center">Concentracoes</h3>
+            <h3 className="font-serif text-2xl text-foreground mb-6 text-center">Concentrações</h3>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
                 { name: "Eau de Cologne", conc: "2-4%", dur: "2h", highlight: false },
@@ -1267,10 +1375,10 @@ function LandingPageView({ onBack }: { onBack: () => void }) {
                 <div key={i} className={`text-center space-y-2 p-4 ${c.highlight ? "border border-gold/30 bg-gold/5" : ""}`}>
                   <p className={`font-medium ${c.highlight ? "text-gold" : "text-foreground"}`}>{c.name}</p>
                   <p className={`text-xs ${c.highlight ? "text-gold/80" : "text-muted-foreground"}`}>
-                    {c.conc} de concentracao
+                    {c.conc} de concentração
                   </p>
                   <p className={`text-xs ${c.highlight ? "text-gold/80" : "text-muted-foreground"}`}>
-                    Duracao media: {c.dur}
+                    Duração média: {c.dur}
                   </p>
                 </div>
               ))}
@@ -1279,18 +1387,18 @@ function LandingPageView({ onBack }: { onBack: () => void }) {
               <div className="w-12 h-px bg-gold/30" />
             </div>
             <p className="text-center text-sm text-muted-foreground">
-              Gomez Bellezza trabalha exclusivamente com concentracoes EDP e Parfum
+              Gomez Bellezza trabalha exclusivamente com concentrações EDP e Parfum
             </p>
           </div>
         </div>
       </section>
 
-      {/* Guia de Aplicacao */}
+      {/* Guia de Aplicação */}
       <section className="py-16 px-6 bg-card/50 border-t border-border">
         <div className="max-w-4xl mx-auto">
           <p className="text-gold text-xs tracking-luxury uppercase font-sans text-center mb-4">Guia</p>
           <h2 className="font-serif text-3xl md:text-4xl text-center mb-4 text-foreground">
-            Aplicacao e Cuidados
+            Aplicação e Cuidados
           </h2>
           <div className="flex justify-center mb-12">
             <div className="w-16 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
@@ -1299,20 +1407,20 @@ function LandingPageView({ onBack }: { onBack: () => void }) {
           <div className="grid md:grid-cols-2 gap-6">
             {[
               {
-                title: "Pontos de Aplicacao",
-                items: ["Pulsos internos", "Atras das orelhas", "Base do pescoco", "Parte interna dos cotovelos", "Atras dos joelhos"],
+                title: "Pontos de Aplicação",
+                items: ["Pulsos internos", "Atrás das orelhas", "Base do pescoço", "Parte interna dos cotovelos", "Atrás dos joelhos"],
               },
               {
-                title: "Maximizando a Fixacao",
-                items: ["Aplique apos o banho, com a pele ainda umida", "Hidrate bem a pele antes da aplicacao", "Nao esfregue os pulsos apos aplicar", "Borrife a uma distancia de 15-20cm", "Pele oleosa retem fragancias por mais tempo"],
+                title: "Maximizando a Fixação",
+                items: ["Aplique após o banho, com a pele ainda úmida", "Hidrate bem a pele antes da aplicação", "Não esfregue os pulsos após aplicar", "Borrife a uma distância de 15-20cm", "Pele oleosa retém fragrâncias por mais tempo"],
               },
               {
                 title: "Armazenamento Correto",
-                items: ["Mantenha em local fresco e seco", "Evite exposicao direta ao sol", "Nao armazene no banheiro", "Mantenha o frasco sempre fechado", "Temperatura ideal: 15-20 graus"],
+                items: ["Mantenha em local fresco e seco", "Evite exposição direta ao sol", "Não armazene no banheiro", "Mantenha o frasco sempre fechado", "Temperatura ideal: 15-20 graus"],
               },
               {
-                title: "Combinacoes e Camadas",
-                text: "Para criar assinaturas olfativas unicas, combine fragancias da mesma familia ou crie camadas complementares. Comece com notas mais leves e adicione as mais intensas por cima.",
+                title: "Combinações e Camadas",
+                text: "Para criar assinaturas olfativas únicas, combine fragrâncias da mesma família ou crie camadas complementares. Comece com notas mais leves e adicione as mais intensas por cima.",
               },
             ].map((card, i) => (
               <div key={i} className="bg-card border border-border p-6">
@@ -1369,7 +1477,7 @@ function LandingPageView({ onBack }: { onBack: () => void }) {
             <div className="p-6">
               <Sparkles className="w-8 h-8 mx-auto text-gold mb-3" />
               <p className="font-medium text-foreground mb-1">Consultoria</p>
-              <p className="text-sm text-muted-foreground">Disponivel 24/7</p>
+              <p className="text-sm text-muted-foreground">Disponível 24/7</p>
             </div>
           </div>
 
@@ -1407,13 +1515,13 @@ function LinhasView({ onBack }: { onBack: () => void }) {
         {/* Feminina */}
         <section>
           <div className="text-center mb-10">
-            <p className="text-gold text-xs tracking-luxury uppercase font-sans mb-3">Colecao</p>
+            <p className="text-gold text-xs tracking-luxury uppercase font-sans mb-3">Coleção</p>
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-4">Linha Feminina</h2>
             <div className="flex justify-center mb-4">
               <div className="w-12 h-px bg-gold" />
             </div>
             <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Criacoes elegantes e sofisticadas que celebram a feminilidade em todas as suas facetas.
+              Criações elegantes e sofisticadas que celebram a feminilidade em todas as suas facetas.
             </p>
           </div>
 
@@ -1436,13 +1544,13 @@ function LinhasView({ onBack }: { onBack: () => void }) {
         {/* Masculina */}
         <section>
           <div className="text-center mb-10">
-            <p className="text-gold text-xs tracking-luxury uppercase font-sans mb-3">Colecao</p>
+            <p className="text-gold text-xs tracking-luxury uppercase font-sans mb-3">Coleção</p>
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-4">Linha Masculina</h2>
             <div className="flex justify-center mb-4">
               <div className="w-12 h-px bg-gold" />
             </div>
             <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Fragancias marcantes e envolventes que expressam sofisticacao e presenca.
+              Fragrâncias marcantes e envolventes que expressam sofisticação e presença.
             </p>
           </div>
 
@@ -1472,16 +1580,16 @@ function LinhasView({ onBack }: { onBack: () => void }) {
             <div>
               <h4 className="font-medium text-gold mb-3 text-sm tracking-wider uppercase">Linha Feminina</h4>
               <p className="text-background/60 text-sm leading-relaxed">
-                Quatro criacoes que exploram diferentes aspectos da feminilidade: desde a delicadeza
-                floral ate a intensidade amadeirada. Fragancias versateis para momentos diurnos e
-                noturnos, sempre com elegancia.
+                Quatro criações que exploram diferentes aspectos da feminilidade: desde a delicadeza
+                floral até a intensidade amadeirada. Fragrâncias versáteis para momentos diurnos e
+                noturnos, sempre com elegância.
               </p>
             </div>
             <div>
               <h4 className="font-medium text-gold mb-3 text-sm tracking-wider uppercase">Linha Masculina</h4>
               <p className="text-background/60 text-sm leading-relaxed">
-                Duas composicoes marcantes que definem presenca: Vayn's com sua personalidade noturna
-                especiada, e Adien's com sua opulencia oriental. Fragancias de carater forte e fixacao
+                Duas composições marcantes que definem presença: Vayn's com sua personalidade noturna
+                especiada, e Adien's com sua opulência oriental. Fragrâncias de caráter forte e fixação
                 duradoura.
               </p>
             </div>
@@ -1505,11 +1613,11 @@ function QuizView({ onBack }: { onBack: () => void }) {
 
   const questions = [
     {
-      question: "Qual ambiente voce prefere?",
+      question: "Qual ambiente você prefere?",
       options: [
         { text: "Noite elegante em festa", value: "especiado" },
         { text: "Jardim florido na primavera", value: "floral" },
-        { text: "Costa maritima ao entardecer", value: "aquatico" },
+        { text: "Costa marítima ao entardecer", value: "aquatico" },
         { text: "Lounge sofisticado", value: "oriental" },
       ],
     },
@@ -1518,17 +1626,17 @@ function QuizView({ onBack }: { onBack: () => void }) {
       options: [
         { text: "Vibrante", value: "especiado" },
         { text: "Elegante", value: "floral" },
-        { text: "Energetico", value: "aquatico" },
+        { text: "Energético", value: "aquatico" },
         { text: "Ousado", value: "oriental" },
       ],
     },
     {
-      question: "Quando voce usaria seu perfume ideal?",
+      question: "Quando você usaria seu perfume ideal?",
       options: [
         { text: "Eventos noturnos especiais", value: "especiado" },
         { text: "Dia a dia sofisticado", value: "floral" },
-        { text: "Atividades diarias", value: "aquatico" },
-        { text: "Grandes ocasioes", value: "oriental" },
+        { text: "Atividades diárias", value: "aquatico" },
+        { text: "Grandes ocasiões", value: "oriental" },
       ],
     },
   ]
@@ -1556,22 +1664,22 @@ function QuizView({ onBack }: { onBack: () => void }) {
       especiado: {
         perfume: "Vayn's",
         description:
-          "Uma fragrancia vibrante e moderna, perfeita para quem busca presenca marcante em ambientes noturnos e eventos especiais.",
+          "Uma fragrância vibrante e moderna, perfeita para quem busca presença marcante em ambientes noturnos e eventos especiais.",
       },
       floral: {
         perfume: "Baby ou Secret Lun's",
         description:
-          "Fragancias florais que equilibram delicadeza e sofisticacao, ideais para quem aprecia elegancia atemporal.",
+          "Fragrâncias florais que equilibram delicadeza e sofisticação, ideais para quem aprecia elegância atemporal.",
       },
       aquatico: {
         perfume: "Eter's",
         description:
-          "Um perfume energetico com frescor aquatico, perfeito para quem tem estilo de vida ativo e dinamico.",
+          "Um perfume energético com frescor aquático, perfeito para quem tem estilo de vida ativo e dinâmico.",
       },
       oriental: {
         perfume: "Adien's",
         description:
-          "Uma composicao luxuosa e ousada com fixacao excepcional, ideal para quem nao teme fazer declaracoes marcantes.",
+          "Uma composição luxuosa e ousada com fixação excepcional, ideal para quem não teme fazer declarações marcantes.",
       },
     }
     return results[winner]
@@ -1604,7 +1712,7 @@ function QuizView({ onBack }: { onBack: () => void }) {
                 Refazer Quiz
               </button>
               <a
-                href={`${WHATSAPP_LINK}?text=Ola! Fiz o quiz e meu perfume ideal e ${result.perfume}. Gostaria de saber mais!`}
+                href={`${WHATSAPP_LINK}?text=Olá! Fiz o quiz e meu perfume ideal é ${result.perfume}. Gostaria de saber mais!`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-gold text-foreground text-sm tracking-wider uppercase hover:bg-gold-light transition-all duration-300 text-center"
@@ -1677,12 +1785,12 @@ function ContatoView({ onBack }: { onBack: () => void }) {
               <Image src={LOGO_URL} alt="Gomez Bellezza" fill className="object-cover" />
             </div>
           </div>
-          <h1 className="font-serif text-4xl md:text-5xl text-foreground mb-4">Estamos a Disposicao</h1>
+          <h1 className="font-serif text-4xl md:text-5xl text-foreground mb-4">Estamos à Disposição</h1>
           <div className="flex justify-center mb-6">
             <div className="w-16 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
           </div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Nossa equipe esta pronta para ajuda-lo a descobrir a fragrancia perfeita. Atendimento
+            Nossa equipe está pronta para ajudá-lo a descobrir a fragrância perfeita. Atendimento
             personalizado e consultoria olfativa a qualquer momento.
           </p>
         </div>
@@ -1699,7 +1807,7 @@ function ContatoView({ onBack }: { onBack: () => void }) {
               <Phone className="w-6 h-6 text-gold" />
             </div>
             <h3 className="font-serif text-xl text-foreground mb-2">WhatsApp</h3>
-            <p className="text-sm text-muted-foreground mb-3">Atendimento disponivel 24h</p>
+            <p className="text-sm text-muted-foreground mb-3">Atendimento disponível 24h</p>
             <p className="text-gold font-medium">(11) 99538-4328</p>
           </a>
 
@@ -1722,20 +1830,20 @@ function ContatoView({ onBack }: { onBack: () => void }) {
               <Sparkles className="w-6 h-6 text-gold" />
             </div>
             <h3 className="font-serif text-xl text-foreground mb-2">Consultoria</h3>
-            <p className="text-sm text-muted-foreground mb-3">Orientacao olfativa personalizada</p>
+            <p className="text-sm text-muted-foreground mb-3">Orientação olfativa personalizada</p>
             <p className="text-gold font-medium">Sob agendamento</p>
           </div>
         </div>
 
-        {/* Horario */}
+        {/* Horário */}
         <div className="bg-foreground p-8 mb-12 text-center">
-          <h3 className="font-serif text-2xl text-background mb-4">Horario de Atendimento</h3>
+          <h3 className="font-serif text-2xl text-background mb-4">Horário de Atendimento</h3>
           <div className="flex justify-center mb-4">
             <div className="w-12 h-px bg-gold" />
           </div>
-          <p className="text-lg text-background/80 font-medium mb-2">Disponivel 24 horas por dia</p>
+          <p className="text-lg text-background/80 font-medium mb-2">Disponível 24 horas por dia</p>
           <p className="text-background/50">Todos os dias da semana, incluindo finais de semana e feriados</p>
-          <p className="text-gold text-sm italic mt-2">Respostas rapidas e atendimento personalizado</p>
+          <p className="text-gold text-sm italic mt-2">Respostas rápidas e atendimento personalizado</p>
         </div>
 
         {/* Info */}
@@ -1746,9 +1854,9 @@ function ContatoView({ onBack }: { onBack: () => void }) {
             <ul className="space-y-3 text-sm text-muted-foreground">
               {[
                 "Entre em contato via WhatsApp ou Instagram",
-                "Escolha suas fragancias favoritas do catalogo",
-                "Receba orientacoes personalizadas sobre cada perfume",
-                "Finalize seu pedido com seguranca e praticidade",
+                "Escolha suas fragrâncias favoritas do catálogo",
+                "Receba orientações personalizadas sobre cada perfume",
+                "Finalize seu pedido com segurança e praticidade",
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <div className="w-1 h-1 rounded-full bg-gold mt-2 flex-shrink-0" />
@@ -1763,9 +1871,9 @@ function ContatoView({ onBack }: { onBack: () => void }) {
             <ul className="space-y-3 text-sm text-muted-foreground">
               {[
                 "Atendimento personalizado e consultoria olfativa",
-                "Produtos de alta qualidade com fixacao excepcional",
-                "Fragancias exclusivas e sofisticadas",
-                "Disponibilidade total para tirar suas duvidas",
+                "Produtos de alta qualidade com fixação excepcional",
+                "Fragrâncias exclusivas e sofisticadas",
+                "Disponibilidade total para tirar suas dúvidas",
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <div className="w-1 h-1 rounded-full bg-gold mt-2 flex-shrink-0" />
@@ -1782,7 +1890,7 @@ function ContatoView({ onBack }: { onBack: () => void }) {
             <div className="w-16 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
           </div>
           <p className="font-serif text-lg text-foreground italic mb-6">
-            Transforme momentos em memorias inesqueciveis
+            Transforme momentos em memórias inesquecíveis
           </p>
           <a
             href={WHATSAPP_LINK}
