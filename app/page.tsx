@@ -213,16 +213,268 @@ const inspiracoes = [
     tag: "The intense new fragrance.",
   },
   {
-    name: "Ferrari Black",
-    brand: "Ferrari",
-    family: "Aromático Frutado",
-    notes: "Maçã, ameixa, limão, canela, cardamomo, jasmim, baunilha, âmbar, almíscar, cedro",
-    shortDescription: "Frutado e envolvente, com toque quente de baunilha e especiarias.",
+    name: "Club de Nuit Intense Man",
+    brand: "Armaf",
+    family: "Cítrico Amadeirado",
+    notes: "Limão, abacaxi, bergamota, maçã, rosa, jasmim, bétula, almíscar, âmbar, baunilha, patchouli",
+    shortDescription: "Marcante e sofisticado, cítrico amadeirado com grande projeção.",
     fullDescription:
-      "Uma fragrância que combina frescor frutado com especiarias quentes. A abertura de maçã e ameixa é complementada por notas de canela e cardamomo, evoluindo para um fundo cremoso de baunilha e âmbar.",
+      "Uma fragrância que combina frescor cítrico com profundidade amadeirada. A abertura frutada evolui para um coração floral refinado e finaliza com madeiras e âmbar.",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img1-kJDD4JD5mmBgOKNBSOMHEGQ4Apr5WL.jpeg",
-    tag: "Velocidade e elegância.",
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.16.57-pGk2PIkDnRTBB4tdmVVSMGzKtUfzwy.jpeg",
+    tag: "Imponência que domina a noite.",
+  },
+  {
+    name: "Olympéa",
+    brand: "Paco Rabanne",
+    family: "Oriental Floral",
+    notes: "Gengibre, tangerina, baunilha salgada, âmbar, madeira",
+    shortDescription: "Poderosa e sensual, doce salgado com presença única.",
+    fullDescription:
+      "Uma fragrância divina que combina notas aquáticas com a doçura da baunilha salgada. O jasmim aquático traz frescor, enquanto o âmbar e sândalo garantem sensualidade.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.16.58-Mt9aYPXsevVHmsmKMxwnHE8vHVLbED.jpeg",
+    tag: "Poder divino. Sedução absoluta.",
+  },
+  {
+    name: "Asad",
+    brand: "Lattafa",
+    family: "Oriental Especiado",
+    notes: "Pimenta preta, abacaxi, café, patchouli, baunilha, âmbar seco",
+    shortDescription: "Quente, doce e poderoso, um oriental especiado com forte presença masculina.",
+    fullDescription:
+      "Uma fragrância poderosa que combina especiarias intensas com notas de café e tabaco. O fundo cremoso de baunilha e âmbar proporciona calor e sofisticação.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.17.01%20%283%29-dZqbyVSLodPU71ftQkemqpo8VXQSgH.jpeg",
+    tag: "A presença masculina imposta em cada spray.",
+  },
+  {
+    name: "Chloé Eau de Parfum",
+    brand: "Chloé",
+    family: "Floral Powdery",
+    notes: "Peônia, lichia, rosa, magnólia, cedro, âmbar",
+    shortDescription: "Delicado e elegante, floral limpo com assinatura feminina sofisticada.",
+    fullDescription:
+      "Uma celebração da feminilidade em sua forma mais pura e refinada. Chloé Eau de Parfum apresenta a peônia e a rosa em um dueto floral que exala naturalidade e charme inato.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.16.57%20%282%29-PlSUmko3DKFwQHH2iikZZnTIAxDuau.jpeg",
+    tag: "Feminilidade delicada e atemporal.",
+  },
+  {
+    name: "Versace Pour Femme Dylan Blue",
+    brand: "Versace",
+    family: "Floral Frutado",
+    notes: "Maçã, groselha preta, rosa, jasmim, pêssego, almíscar, madeira branca, patchouli",
+    shortDescription: "Feminino, sensual e moderno. Floral frutado com fundo marcante e elegante.",
+    fullDescription:
+      "Uma fragrância que celebra a mulher contemporânea. Frutas suculentas se encontram com um coração floral sofisticado, finalizando com madeiras brancas e patchouli.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.17.00%20%282%29-tNoTYEDp76doopzBT6TV0BGQS4aESt.jpeg",
+    tag: "Elegância que deixa rastro.",
+  },
+  {
+    name: "Montblanc Signature Elixir",
+    brand: "Montblanc",
+    family: "Gourmand Oriental",
+    notes: "Pera, mandarina, flor de laranjeira, jasmim, baunilha, âmbar, sândalo",
+    shortDescription: "Quente, cremoso e sofisticado. Um gourmand elegante com assinatura envolvente.",
+    fullDescription:
+      "Uma fragrância que combina frescor frutado com calor envolvente. A abertura de pera e mandarina evolui para um coração floral, finalizando com baunilha e sândalo.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.17.00%20%281%29-SrfGAv9W2T8XozXAxYMNYXnnMNciet.jpeg",
+    tag: "Um luxo intenso.",
+  },
+  {
+    name: "Fakhar Khaleej",
+    brand: "Lattafa",
+    family: "Oriental Amadeirado",
+    notes: "Especiarias, cítricos, rosa, oud, âmbar, musk, madeira",
+    shortDescription: "Intenso, exótico e marcante. Perfil oriental com riqueza de especiarias.",
+    fullDescription:
+      "Uma fragrância que captura a opulência do Oriente Médio. Especiarias intensas se fundem com oud e âmbar, criando uma experiência olfativa luxuosa e memorável.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.16.55-xeb35GGn3D347CqF3uOzx5r4owqEiG.jpeg",
+    tag: "Opulência que impõe respeito.",
+  },
+  {
+    name: "Miss Dior",
+    brand: "Dior",
+    family: "Floral Chypre",
+    notes: "Mandarina, bergamota, rosa de Grasse, peônia, almíscar branco, patchouli",
+    shortDescription: "Delicada e envolvente, romantismo moderno com sofisticação.",
+    fullDescription:
+      "Uma fragrância que traduz romantismo moderno com sofisticação. Floral elegante, levemente adocicado, com presença feminina marcante.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.16.59-PSiRX13w5Z2xjwqgssYW6tq1RkM0Z2.jpeg",
+    tag: "Celebrando o amor.",
+  },
+  {
+    name: "MYSLF",
+    brand: "Yves Saint Laurent",
+    family: "Floral Amadeirado",
+    notes: "Bergamota, flor de laranjeira, madeira, ambroxan",
+    shortDescription: "Moderno, limpo e envolvente. Masculino com frescor e fundo sensual.",
+    fullDescription:
+      "Uma declaração de identidade masculina contemporânea assinada pela icônica maison francesa. O frescor da bergamota encontra a luminosidade da flor de laranjeira sobre um fundo amadeirado.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.16.58%20%282%29-g3BIg2tuErUyKngZ6wv5wVFB8veOBt.jpeg",
+    tag: "Sou todas as minhas versões.",
+  },
+  {
+    name: "Sauvage",
+    brand: "Dior",
+    family: "Aromático Fougère",
+    notes: "Bergamota, lavanda, pimenta, ambroxan, cedro",
+    shortDescription: "Bruto e refinado ao mesmo tempo. Um aromático fresco com base quente e poderosa.",
+    fullDescription:
+      "Uma fragrância icônica que combina frescor cítrico com profundidade amadeirada. A bergamota vibrante encontra o calor do ambroxan e cedro para um resultado poderoso.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.17.01%20%281%29-ojWMz4XhJZtEvXzIc9ThzipO4MxGGq.jpeg",
+    tag: "Liberdade sem limites.",
+  },
+  {
+    name: "Eclaire",
+    brand: "Lattafa",
+    family: "Gourmand",
+    notes: "Caramelo, açúcar, leite, mel, baunilha, praline, almíscar",
+    shortDescription: "Doce e cremoso, lembrando sobremesas sofisticadas.",
+    fullDescription:
+      "Uma fragrância indulgente que captura a essência de sobremesas artesanais. Caramelo e açúcar se misturam com leite e mel, criando uma experiência olfativa irresistível.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.16.54-IopigfH0mUmEYFAPhBl7HrclgVwa4u.jpeg",
+    tag: "Luxo que atrai olhares e desejos.",
+  },
+  {
+    name: "Idôle",
+    brand: "Lancôme",
+    family: "Floral Moderno",
+    notes: "Pera, bergamota, rosa, jasmim, almíscar, baunilha",
+    shortDescription: "Moderno e leve. Floral limpo com elegância contemporânea.",
+    fullDescription:
+      "Uma fragrância que representa a nova geração de mulheres. O frescor da bergamota e pera encontra a delicadeza das rosas, finalizado com almíscar branco e baunilha suave.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.16.58%20%281%29-zyCFnliud25ibppBmoEJRvF7Z4fFkn.jpeg",
+    tag: "Leveza que marca presença.",
+  },
+  {
+    name: "Imagination",
+    brand: "Louis Vuitton",
+    family: "Cítrico Aromático",
+    notes: "Bergamota, cidra, laranja, gengibre, canela, neroli, chá preto, ambroxan, madeira",
+    shortDescription: "Refrescante e luxuoso, combina leveza cítrica com profundidade aromática.",
+    fullDescription:
+      "Um perfume elegante e extremamente versátil. A explosão cítrica inicial evolui para especiarias delicadas e finaliza com chá preto e madeiras sofisticadas.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.17.00-vc3T8554hEyxKOT7ZemJaL9ft9TkWe.jpeg",
+    tag: "Elegância que refresca a alma.",
+  },
+  {
+    name: "J'adore In Joy",
+    brand: "Dior",
+    family: "Floral Salgado",
+    notes: "Sal marinho, pêssego, jasmim, ylang-ylang, baunilha, almíscar",
+    shortDescription: "Radiante e luminoso. Floral com toque salgado que traz frescor e sensualidade leve.",
+    fullDescription:
+      "Uma fragrância que celebra a alegria de viver. O toque salgado único encontra flores luminosas e frutas suculentas para um resultado radiante.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.17.01-9Rp1VEJ9xEt1kmSYrXGkkdtOMInUuY.jpeg",
+    tag: "Pura alegria e luminosidade.",
+  },
+  {
+    name: "Light Blue",
+    brand: "Dolce & Gabbana",
+    family: "Cítrico Frutado",
+    notes: "Limão siciliano, maçã, jasmim, bambu, cedro, âmbar",
+    shortDescription: "Refrescante e vibrante, um cítrico aquático perfeito para dias quentes.",
+    fullDescription:
+      "Uma ode ao Mediterrâneo e à dolce vita italiana. Light Blue captura a essência dos dias ensolarados na costa de Capri com cítricos vibrantes e frescor incomparável.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.16.57%20%281%29-BFBwJB28TXpGm0gR1qwlakHvRL89yI.jpeg",
+    tag: "Frescor mediterrâneo em cada spray.",
+  },
+  {
+    name: "Alocaime Sinnen",
+    brand: "Creed",
+    family: "Chipre Frutado",
+    notes: "Maçã verde, bergamota, limão, pimenta rosa, rosa, sândalo, almíscar, âmbar, pêssego, ylang-ylang",
+    shortDescription: "Elegante e confiante, frutado sofisticado com fundo chique e duradouro.",
+    fullDescription:
+      "Uma fragrância que celebra a mulher moderna e confiante. Frutas frescas e cítricas se encontram com um coração floral sofisticado e um fundo sensual de madeiras e almíscar.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.17.02-1pYehxssPUPc12hBKJv5KV6wnRfIs6.jpeg",
+    tag: "Luxo inconfundível em cada spray.",
+  },
+  {
+    name: "Bleu de Chanel",
+    brand: "Chanel",
+    family: "Amadeirado Aromático",
+    notes: "Limão, hortelã, pimenta rosa, gengibre, noz-moscada, incenso, sândalo, cedro",
+    shortDescription: "Elegância masculina absoluta. Amadeirado aromático com frescor sofisticado.",
+    fullDescription:
+      "Uma fragrância icônica que representa a liberdade masculina. O frescor cítrico encontra especiarias quentes e madeiras nobres para um resultado atemporal.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.17.00%20%283%29-ifLRsGkC0N3IRB8K8eaoSZWjNKRGV9.jpeg",
+    tag: "Elegância que deixa rastro.",
+  },
+  {
+    name: "Sabah Al Ward",
+    brand: "Al Jazerah Khubusi",
+    family: "Oriental Floral",
+    notes: "Especiarias, rosa, oud, âmbar, musk",
+    shortDescription: "Intenso, exótico e marcante. Perfil oriental com riqueza de especiarias e notas quentes.",
+    fullDescription:
+      "Uma fragrância que evoca a magia do Oriente. Rosa e oud se fundem com especiarias intensas e âmbar para uma experiência olfativa única e memorável.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-10%20at%2015.17.01%20%282%29-pKlcRn7v8k3S2O0OOFv9r66WiHPiJz.jpeg",
+    tag: "Encanto em cada gota de perfume.",
+  },
+  {
+    name: "Good Girl",
+    brand: "Carolina Herrera",
+    family: "Oriental Floral",
+    notes: "Amêndoa, café, jasmim sambac, tuberosa, cacau, fava tonka, baunilha",
+    shortDescription: "Doce, sensual e impactante. Um gourmand moderno extremamente sedutor.",
+    fullDescription:
+      "Uma fragrância que celebra a dualidade feminina. O café e a amêndoa encontram flores sensuais como jasmim e tuberosa, finalizando com a cremosidade do cacau e baunilha.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/212%20vip-ylZvWoabBOJENGLcEDESLRDUF44B4x.jpeg",
+    tag: "É tão bom ser má.",
+  },
+  {
+    name: "Fakhar Rose",
+    brand: "Lattafa",
+    family: "Floral Frutado",
+    notes: "Frutas vermelhas, rosa, jasmim, almíscar, baunilha",
+    shortDescription: "Floral elegante com toque moderno e levemente adocicado.",
+    fullDescription:
+      "Uma fragrância que celebra a rosa em sua forma mais luxuosa. Frutas vermelhas abrem caminho para um coração floral rico, finalizado com baunilha e madeiras suaves.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-L9VFM34iS2KvoKWsZN9pBCs6qrgI4i.jpeg",
+    tag: "Elegância floral.",
+  },
+  {
+    name: "Baccarat Rouge 540",
+    brand: "Maison Francis Kurkdjian",
+    family: "Oriental Ambarado",
+    notes: "Açafrão, jasmim, âmbar cinzento, madeira de âmbar, resina de abeto, cedro",
+    shortDescription: "Luxuoso e marcante, com aura ambarada sofisticada.",
+    fullDescription:
+      "Considerado uma das maiores criações da perfumaria contemporânea, Baccarat Rouge 540 é sinônimo de luxo e exclusividade. Açafrão e jasmim se fundem com âmbar e madeiras preciosas.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img3-Ckg1LMknN4pjBINjycyZXyovWlfBoi.jpeg",
+    tag: "O luxo em sua forma mais pura.",
+  },
+  {
+    name: "Invictus",
+    brand: "Paco Rabanne",
+    family: "Amadeirado Aquático",
+    notes: "Toranja, notas marinhas, folha de louro, jasmim, âmbar cinzento, patchouli, madeira guaiac",
+    shortDescription: "Frescor marinho com fundo amadeirado intenso e masculino.",
+    fullDescription:
+      "Uma fragrância que evoca a sensação de vitória e conquista com cada borrifada. Notas marinhas se fundem com madeiras intensas para um resultado poderoso.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/erba%20pura-k8oeS3vQHuX2GTjNzNWqfHPofzmnPc.jpeg",
+    tag: "A fragrância da conquista.",
   },
   {
     name: "CK One",
@@ -247,162 +499,6 @@ const inspiracoes = [
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img%202-AOlsvcEMEo6FCdcwbmH5wQGLjvsEUl.jpeg",
     tag: "Doce e inesquecível.",
-  },
-  {
-    name: "Baccarat Rouge 540",
-    brand: "Maison Francis Kurkdjian",
-    family: "Oriental Ambarado",
-    notes: "Açafrão, jasmim, âmbar cinzento, madeira de âmbar, resina de abeto, cedro",
-    shortDescription: "Luxuoso e marcante, com aura ambarada sofisticada.",
-    fullDescription:
-      "Considerado uma das maiores criações da perfumaria contemporânea, Baccarat Rouge 540 é sinônimo de luxo e exclusividade. Açafrão e jasmim se fundem com âmbar e madeiras preciosas.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img3-Ckg1LMknN4pjBINjycyZXyovWlfBoi.jpeg",
-    tag: "O luxo em sua forma mais pura.",
-  },
-  {
-    name: "Light Blue",
-    brand: "Dolce & Gabbana",
-    family: "Cítrico Frutado",
-    notes: "Limão siciliano, maçã verde, cedro, bambu, jasmim, rosa branca, âmbar, almíscar",
-    shortDescription: "Refrescante e vibrante, inspirado no verão mediterrâneo.",
-    fullDescription:
-      "Uma ode ao Mediterrâneo e à dolce vita italiana. Light Blue captura a essência dos dias ensolarados na costa de Capri com cítricos vibrantes e frescor incomparável.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img4-idnaRLlo58jbKTixmbzl2W6xtHxv0n.jpeg",
-    tag: "O frescor do Mediterrâneo.",
-  },
-  {
-    name: "MYSLF",
-    brand: "Yves Saint Laurent",
-    family: "Floral Amadeirado",
-    notes: "Bergamota, flor de laranjeira, patchouli, ambrofix, madeiras",
-    shortDescription: "Moderno e elegante, floral luminoso com fundo amadeirado.",
-    fullDescription:
-      "Uma declaração de identidade masculina contemporânea assinada pela icônica maison francesa. O frescor da bergamota encontra a luminosidade da flor de laranjeira sobre um fundo amadeirado.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img5-X5juobaFfJXwASD7AjCwLR3vjGlSJ2.jpeg",
-    tag: "Sou todas as minhas versões.",
-  },
-  {
-    name: "Chloé Eau de Parfum",
-    brand: "Chloé",
-    family: "Floral Powdery",
-    notes: "Peônia, rosa, lichia, âmbar",
-    shortDescription: "Delicado e elegante, a rosa de forma moderna e sofisticada.",
-    fullDescription:
-      "Uma celebração da feminilidade em sua forma mais pura e refinada. Chloé Eau de Parfum apresenta a peônia e a rosa em um dueto floral que exala naturalidade e charme inato.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-L9VFM34iS2KvoKWsZN9pBCs6qrgI4i.jpeg",
-    tag: "Graciosidade em cada nota.",
-  },
-  {
-    name: "Invictus",
-    brand: "Paco Rabanne",
-    family: "Amadeirado Aquático",
-    notes: "Toranja, notas marinhas, folha de louro, jasmim, âmbar cinzento, patchouli, madeira guaiac",
-    shortDescription: "Frescor marinho com fundo amadeirado intenso e masculino.",
-    fullDescription:
-      "Uma fragrância que evoca a sensação de vitória e conquista com cada borrifada. Notas marinhas se fundem com madeiras intensas para um resultado poderoso.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/erba%20pura-k8oeS3vQHuX2GTjNzNWqfHPofzmnPc.jpeg",
-    tag: "A fragrância da conquista.",
-  },
-  {
-    name: "Fakhar Rose",
-    brand: "Lattafa",
-    family: "Floral Frutado",
-    notes: "Frutas vermelhas, romã, rosa, jasmim, lírio, almíscar, baunilha, madeiras",
-    shortDescription: "Floral elegante com toque doce e feminino.",
-    fullDescription:
-      "Uma fragrância que celebra a rosa em sua forma mais luxuosa. Frutas vermelhas e romã abrem caminho para um coração floral rico, finalizado com baunilha e madeiras suaves.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-L9VFM34iS2KvoKWsZN9pBCs6qrgI4i.jpeg",
-    tag: "Elegância floral.",
-  },
-  {
-    name: "Eclaire",
-    brand: "Lattafa",
-    family: "Gourmand",
-    notes: "Caramelo, açúcar, leite, mel, baunilha, praline, almíscar",
-    shortDescription: "Doce e cremoso, lembrando sobremesas sofisticadas.",
-    fullDescription:
-      "Uma fragrância indulgente que captura a essência de sobremesas artesanais. Caramelo e açúcar se misturam com leite e mel, criando uma experiência olfativa irresistível.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img%202-AOlsvcEMEo6FCdcwbmH5wQGLjvsEUl.jpeg",
-    tag: "Doçura sofisticada.",
-  },
-  {
-    name: "Good Girl",
-    brand: "Carolina Herrera",
-    family: "Oriental Floral",
-    notes: "Amêndoa, café, jasmim sambac, tuberosa, cacau, fava tonka, baunilha",
-    shortDescription: "Intenso e sedutor, com contraste entre doce e floral.",
-    fullDescription:
-      "Uma fragrância que celebra a dualidade feminina. O café e a amêndoa encontram flores sensuais como jasmim e tuberosa, finalizando com a cremosidade do cacau e baunilha.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/212%20vip-ylZvWoabBOJENGLcEDESLRDUF44B4x.jpeg",
-    tag: "É tão bom ser má.",
-  },
-  {
-    name: "Club de Nuit Intense Man",
-    brand: "Armaf",
-    family: "Cítrico Amadeirado",
-    notes: "Limão, abacaxi, bergamota, maçã, rosa, jasmim, bétula, almíscar, âmbar, baunilha, patchouli",
-    shortDescription: "Marcante e elegante, com frescor frutado e fundo intenso.",
-    fullDescription:
-      "Uma fragrância que combina frescor cítrico com profundidade amadeirada. A abertura frutada evolui para um coração floral refinado e finaliza com madeiras e âmbar.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/212%20vip%20black-jZyCf6b6SAExg6vTJJlkVAff7KiiCc.jpeg",
-    tag: "Elegância noturna.",
-  },
-  {
-    name: "Asad",
-    brand: "Lattafa",
-    family: "Oriental Especiado",
-    notes: "Pimenta preta, abacaxi, tabaco, café, patchouli, íris, baunilha, âmbar, madeira seca",
-    shortDescription: "Forte e sofisticado, com especiarias quentes e baunilha.",
-    fullDescription:
-      "Uma fragrância poderosa que combina especiarias intensas com notas de café e tabaco. O fundo cremoso de baunilha e âmbar proporciona calor e sofisticação.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jean%20paul%20gaultier-DPVqCAZO2ZT19SnUCVZi4W50WXBX73.jpeg",
-    tag: "Força e determinação.",
-  },
-  {
-    name: "Aventus for Her",
-    brand: "Creed",
-    family: "Chipre Frutado",
-    notes: "Maçã verde, bergamota, limão, pimenta rosa, rosa, sândalo, almíscar, âmbar, pêssego, ylang-ylang",
-    shortDescription: "Feminino e poderoso, com frutas frescas e fundo elegante.",
-    fullDescription:
-      "Uma fragrância que celebra a mulher moderna e confiante. Frutas frescas e cítricas se encontram com um coração floral sofisticado e um fundo sensual de madeiras e almíscar.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-L9VFM34iS2KvoKWsZN9pBCs6qrgI4i.jpeg",
-    tag: "Poder feminino.",
-  },
-  {
-    name: "Idôle",
-    brand: "Lancôme",
-    family: "Floral Moderno",
-    notes: "Bergamota, pera, rosa turca, rosa de maio, jasmim, almíscar branco, baunilha",
-    shortDescription: "Floral delicado e luminoso, elegante e contemporâneo.",
-    fullDescription:
-      "Uma fragrância que representa a nova geração de mulheres. O frescor da bergamota e pera encontra a delicadeza das rosas, finalizado com almíscar branco e baunilha suave.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-L9VFM34iS2KvoKWsZN9pBCs6qrgI4i.jpeg",
-    tag: "Seja sua própria inspiração.",
-  },
-  {
-    name: "Olympéa",
-    brand: "Paco Rabanne",
-    family: "Oriental Floral",
-    notes: "Tangerina verde, jasmim aquático, baunilha salgada, âmbar cinzento, madeira de cashmere, sândalo",
-    shortDescription: "Doce e marcante, com contraste entre baunilha e sal marinho.",
-    fullDescription:
-      "Uma fragrância divina que combina notas aquáticas com a doçura da baunilha salgada. O jasmim aquático traz frescor, enquanto o âmbar e sândalo garantem sensualidade.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img4-idnaRLlo58jbKTixmbzl2W6xtHxv0n.jpeg",
-    tag: "Deusa entre mortais.",
   },
 ]
 
