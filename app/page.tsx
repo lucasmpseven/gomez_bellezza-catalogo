@@ -1447,7 +1447,6 @@ function PerfumesView({ onBack }: { onBack: () => void }) {
             )}
           </div>
         </div>
-        </div>
 
         {/* Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -1460,7 +1459,7 @@ function PerfumesView({ onBack }: { onBack: () => void }) {
           <div className="text-center py-20">
             <p className="text-muted-foreground text-lg">Nenhum perfume encontrado com os filtros selecionados.</p>
             <button
-              onClick={() => { setActiveCategory("Todas"); setActiveFamily("Todas") }}
+              onClick={clearFilters}
               className="mt-4 text-gold text-sm hover:underline"
             >
               Limpar filtros
