@@ -583,11 +583,14 @@ function HomeView({ onNavigate }: { onNavigate: (view: string) => void }) {
       {/* Featured Perfumes */}
       <FeaturedPerfumesSection onNavigate={onNavigate} />
 
-      {/* Differentials */}
-      <DifferentialsSection />
+{/* Differentials */}
+  <DifferentialsSection />
 
-      {/* CTA Final */}
-      <CTASection />
+  {/* Discovery Section */}
+  <DiscoverySection onNavigate={onNavigate} />
+  
+  {/* CTA Final */}
+  <CTASection />
 
       {/* Footer */}
       <PremiumFooter />
@@ -599,73 +602,115 @@ function HomeView({ onNavigate }: { onNavigate: (view: string) => void }) {
 }
 
 /* =========================================================================
-   HERO SECTION
+   HERO SECTION — Premium Editorial Experience
    ========================================================================= */
 function HeroSection({ onNavigate }: { onNavigate: (view: string) => void }) {
+  const [isLoaded, setIsLoaded] = useState(false)
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsLoaded(true), 100)
+    return () => clearTimeout(timer)
+  }, [])
+
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-foreground overflow-hidden">
-      {/* Background image with overlay */}
+      {/* Ambient background layers */}
       <div className="absolute inset-0">
         <Image
           src="/premium-luxury-perfume-collection.jpg"
           alt=""
           fill
-          className="object-cover opacity-20"
+          className="object-cover opacity-15 scale-105"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-foreground/60 via-foreground/40 to-foreground" />
+        <div className="absolute inset-0 bg-gradient-to-b from-foreground/80 via-foreground/50 to-foreground" />
+        {/* Subtle gold accent glow */}
+        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-gold/5 rounded-full blur-[150px]" />
       </div>
 
-      <div className="relative z-10 text-center px-6 py-20 max-w-4xl mx-auto">
-        {/* Logo */}
-        <div className="mb-10 opacity-0 animate-fade-in-up">
-          <div className="relative w-28 h-28 md:w-36 md:h-36 mx-auto rounded-full overflow-hidden ring-1 ring-gold/30 shadow-2xl">
+      <div className="relative z-10 text-center px-6 py-20 max-w-5xl mx-auto">
+        {/* Logo with refined animation */}
+        <div className={`mb-12 transition-all duration-1000 ease-out ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+          <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden ring-1 ring-gold/40 shadow-2xl shadow-gold/10">
             <Image src={LOGO_URL} alt="Gomez Bellezza" fill className="object-cover" priority />
           </div>
         </div>
 
-        {/* Brand Name */}
-        <h1 className="opacity-0 animate-fade-in-up stagger-1 text-background font-serif text-4xl md:text-6xl lg:text-7xl tracking-wide text-balance mb-6">
+        {/* Brand Name with letter spacing */}
+        <h1 
+          className={`text-background font-serif text-4xl md:text-6xl lg:text-8xl tracking-[0.15em] text-balance mb-8 transition-all duration-1000 ease-out delay-200 ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+        >
           GOMEZ BELLEZZA
         </h1>
 
-        {/* Gold divider */}
-        <div className="opacity-0 animate-fade-in-up stagger-2 flex justify-center mb-6">
-          <div className="w-20 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
+        {/* Elegant gold divider with animation */}
+        <div className={`flex justify-center mb-8 transition-all duration-1000 ease-out delay-300 ${isLoaded ? "opacity-100 scale-100" : "opacity-0 scale-0"}`}>
+          <div className="flex items-center gap-3">
+            <div className="w-12 h-px bg-gradient-to-r from-transparent to-gold" />
+            <div className="w-2 h-2 rotate-45 border border-gold" />
+            <div className="w-12 h-px bg-gradient-to-l from-transparent to-gold" />
+          </div>
         </div>
 
-        {/* Tagline */}
-        <p className="opacity-0 animate-fade-in-up stagger-3 text-gold font-serif italic text-xl md:text-2xl lg:text-3xl mb-4 tracking-wide">
+        {/* Tagline - Editorial italic */}
+        <p className={`text-gold font-serif italic text-xl md:text-2xl lg:text-3xl mb-6 tracking-wide transition-all duration-1000 ease-out delay-400 ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           Perfumes que deixam memórias no ar
         </p>
 
-        <p className="opacity-0 animate-fade-in-up stagger-4 text-background/60 text-sm md:text-base max-w-xl mx-auto leading-relaxed font-sans">
-          Alta perfumaria artesanal com fragrâncias exclusivas
+        <p className={`text-background/50 text-sm md:text-base max-w-2xl mx-auto leading-relaxed font-sans mb-4 transition-all duration-1000 ease-out delay-500 ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+          Alta perfumaria artesanal com fragrâncias exclusivas. Cada composição é uma obra de arte olfativa.
         </p>
 
-        {/* CTA Buttons */}
-        <div className="opacity-0 animate-fade-in-up stagger-5 flex flex-col sm:flex-row items-center justify-center gap-4 mt-12">
+        {/* Stats row */}
+        <div className={`flex items-center justify-center gap-8 md:gap-12 mb-12 text-background/40 transition-all duration-1000 ease-out delay-600 ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+          <div className="text-center">
+            <p className="font-serif text-2xl md:text-3xl text-gold">6</p>
+            <p className="text-[10px] tracking-luxury uppercase mt-1">Fragrâncias</p>
+          </div>
+          <div className="w-px h-8 bg-background/10" />
+          <div className="text-center">
+            <p className="font-serif text-2xl md:text-3xl text-gold">20h</p>
+            <p className="text-[10px] tracking-luxury uppercase mt-1">Fixação</p>
+          </div>
+          <div className="w-px h-8 bg-background/10" />
+          <div className="text-center">
+            <p className="font-serif text-2xl md:text-3xl text-gold">100%</p>
+            <p className="text-[10px] tracking-luxury uppercase mt-1">Artesanal</p>
+          </div>
+        </div>
+
+        {/* CTA Buttons with enhanced hover */}
+        <div className={`flex flex-col sm:flex-row items-center justify-center gap-4 transition-all duration-1000 ease-out delay-700 ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <button
             onClick={() => onNavigate("perfumes")}
-            className="px-8 py-4 bg-gold text-foreground font-sans font-medium text-sm tracking-wider uppercase hover:bg-gold-light transition-all duration-300 min-w-[220px]"
+            className="group relative px-10 py-4 bg-gold text-foreground font-sans font-medium text-sm tracking-wider uppercase overflow-hidden min-w-[240px] transition-all duration-500 hover:shadow-lg hover:shadow-gold/20"
           >
-            Explorar Catálogo
+            <span className="relative z-10">Explorar Catálogo</span>
+            <div className="absolute inset-0 bg-gold-light translate-y-full group-hover:translate-y-0 transition-transform duration-500" />
           </button>
           <button
-            onClick={() => onNavigate("landing")}
-            className="px-8 py-4 border border-background/30 text-background font-sans font-medium text-sm tracking-wider uppercase hover:border-gold hover:text-gold transition-all duration-300 min-w-[220px]"
+            onClick={() => onNavigate("quiz")}
+            className="group px-10 py-4 border border-background/30 text-background font-sans font-medium text-sm tracking-wider uppercase min-w-[240px] transition-all duration-500 hover:border-gold hover:text-gold hover:bg-gold/5"
           >
-            Conhecer a Marca
+            Descubra Seu Perfume
           </button>
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 opacity-0 animate-fade-in stagger-6">
-        <div className="w-px h-12 bg-gradient-to-b from-gold/50 to-transparent mx-auto mb-2" />
-        <p className="text-background/30 text-[10px] tracking-luxury uppercase font-sans">Descubra</p>
+      {/* Scroll indicator with pulse animation */}
+      <div className={`absolute bottom-10 left-1/2 -translate-x-1/2 transition-all duration-1000 ease-out delay-1000 ${isLoaded ? "opacity-100" : "opacity-0"}`}>
+        <div className="flex flex-col items-center">
+          <div className="w-px h-16 bg-gradient-to-b from-gold/60 to-transparent mb-3 animate-pulse" />
+          <p className="text-background/30 text-[10px] tracking-luxury uppercase font-sans">Descubra</p>
+        </div>
       </div>
+
+      {/* Corner accents */}
+      <div className="absolute top-8 left-8 w-16 h-16 border-l border-t border-gold/20" />
+      <div className="absolute top-8 right-8 w-16 h-16 border-r border-t border-gold/20" />
+      <div className="absolute bottom-8 left-8 w-16 h-16 border-l border-b border-gold/20" />
+      <div className="absolute bottom-8 right-8 w-16 h-16 border-r border-b border-gold/20" />
     </section>
   )
 }
@@ -917,44 +962,240 @@ function DifferentialsSection() {
 }
 
 /* =========================================================================
-   CTA SECTION
+   DISCOVERY SECTION — "Descubra sua Fragrância"
+   ========================================================================= */
+function DiscoverySection({ onNavigate }: { onNavigate: (view: string) => void }) {
+  const { ref, isInView } = useInView(0.15)
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
+
+  const categories = [
+    {
+      id: "elegante",
+      title: "Elegante e Sofisticado",
+      description: "Para quem aprecia refinamento e presença discreta",
+      icon: <Gem className="w-5 h-5" />,
+      perfumes: ["Baby", "Secret Lun's"],
+      family: "Floral"
+    },
+    {
+      id: "marcante",
+      title: "Marcante e Intenso",
+      description: "Para quem quer deixar uma impressão duradoura",
+      icon: <Sparkles className="w-5 h-5" />,
+      perfumes: ["Adien's", "Vayn's"],
+      family: "Oriental/Especiado"
+    },
+    {
+      id: "fresco",
+      title: "Fresco e Energético",
+      description: "Para dias ativos e momentos de liberdade",
+      icon: <Droplets className="w-5 h-5" />,
+      perfumes: ["Eter's", "Olimpic"],
+      family: "Aquático"
+    },
+  ]
+
+  const selectedData = categories.find(c => c.id === selectedCategory)
+
+  return (
+    <section ref={ref} className="bg-foreground py-24 md:py-32 px-6">
+      <div className="max-w-6xl mx-auto">
+        <div
+          className={`text-center mb-16 transition-all duration-700 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+        >
+          <p className="text-gold text-xs tracking-luxury uppercase font-sans mb-4">Descoberta Olfativa</p>
+          <h2 className="font-serif text-3xl md:text-5xl text-background mb-6 text-balance">
+            Descubra Sua Fragrância Ideal
+          </h2>
+          <div className="flex justify-center mb-6">
+            <div className="w-16 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
+          </div>
+          <p className="text-background/50 max-w-2xl mx-auto leading-relaxed">
+            Selecione o estilo que mais combina com você e encontre a fragrância perfeita para sua personalidade.
+          </p>
+        </div>
+
+        {/* Category Selection */}
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
+          {categories.map((cat, i) => (
+            <button
+              key={cat.id}
+              onClick={() => setSelectedCategory(selectedCategory === cat.id ? null : cat.id)}
+              className={`group text-left p-6 border transition-all duration-500 ${
+                isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+              } ${
+                selectedCategory === cat.id
+                  ? "border-gold bg-gold/10"
+                  : "border-background/20 hover:border-gold/50 hover:bg-background/5"
+              }`}
+              style={{ transitionDelay: `${i * 150}ms` }}
+            >
+              <div className={`inline-flex items-center justify-center w-12 h-12 rounded-full border mb-4 transition-colors ${
+                selectedCategory === cat.id
+                  ? "border-gold text-gold"
+                  : "border-background/30 text-background/50 group-hover:border-gold/50 group-hover:text-gold"
+              }`}>
+                {cat.icon}
+              </div>
+              <h3 className={`font-serif text-xl mb-2 transition-colors ${
+                selectedCategory === cat.id ? "text-gold" : "text-background"
+              }`}>
+                {cat.title}
+              </h3>
+              <p className="text-background/50 text-sm leading-relaxed">{cat.description}</p>
+              <p className="text-gold/60 text-xs mt-3 tracking-wider uppercase">{cat.family}</p>
+            </button>
+          ))}
+        </div>
+
+        {/* Selected Category Results */}
+        {selectedData && (
+          <div className="animate-fade-in bg-background/5 border border-gold/20 p-8 md:p-12">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-8 h-px bg-gold/30" />
+              <p className="text-gold text-xs tracking-luxury uppercase">Recomendação para você</p>
+              <div className="flex-1 h-px bg-gold/30" />
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              {selectedData.perfumes.map((perfumeName) => {
+                const perfume = perfumes.find(p => p.name === perfumeName)
+                if (!perfume) return null
+                return (
+                  <div key={perfumeName} className="flex gap-6 items-start">
+                    <div className="relative w-24 h-32 flex-shrink-0 overflow-hidden">
+                      <Image
+                        src={perfume.image}
+                        alt={perfume.name}
+                        fill
+                        className="object-cover"
+                        sizes="100px"
+                      />
+                    </div>
+                    <div>
+                      <p className="text-gold text-[10px] tracking-luxury uppercase mb-1">{perfume.category}</p>
+                      <h4 className="font-serif text-2xl text-background mb-2">{perfume.name}</h4>
+                      <p className="text-background/60 text-sm leading-relaxed mb-3 line-clamp-2">{perfume.description}</p>
+                      <div className="flex items-center gap-4 text-xs text-background/40">
+                        <span>{perfume.fixation}</span>
+                        <span className="w-1 h-1 rounded-full bg-gold/50" />
+                        <span>{perfume.intensity}</span>
+                      </div>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
+              <button
+                onClick={() => onNavigate("perfumes")}
+                className="px-8 py-4 bg-gold text-foreground font-sans text-sm tracking-wider uppercase hover:bg-gold-light transition-all duration-300"
+              >
+                Ver no Catálogo
+              </button>
+              <button
+                onClick={() => onNavigate("quiz")}
+                className="px-8 py-4 border border-background/30 text-background font-sans text-sm tracking-wider uppercase hover:border-gold hover:text-gold transition-all duration-300"
+              >
+                Fazer Quiz Completo
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* Quiz CTA when nothing selected */}
+        {!selectedCategory && (
+          <div 
+            className={`text-center transition-all duration-700 delay-500 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+          >
+            <p className="text-background/40 text-sm mb-4">Não tem certeza? Faça nosso quiz personalizado</p>
+            <button
+              onClick={() => onNavigate("quiz")}
+              className="px-8 py-4 border border-gold/50 text-gold font-sans text-sm tracking-wider uppercase hover:bg-gold hover:text-foreground transition-all duration-300"
+            >
+              Descubra Seu Perfume Ideal
+            </button>
+          </div>
+        )}
+      </div>
+    </section>
+  )
+}
+
+/* =========================================================================
+   CTA SECTION — Premium Final Call to Action
    ========================================================================= */
 function CTASection() {
   const { ref, isInView } = useInView(0.2)
 
   return (
-    <section ref={ref} className="bg-foreground py-24 md:py-32 px-6">
+    <section ref={ref} className="relative bg-foreground py-28 md:py-40 px-6 overflow-hidden">
+      {/* Background decorative elements */}
+      <div className="absolute inset-0 opacity-30">
+        <div className="absolute top-0 left-1/4 w-[400px] h-[400px] bg-gold/5 rounded-full blur-[100px]" />
+        <div className="absolute bottom-0 right-1/4 w-[300px] h-[300px] bg-gold/5 rounded-full blur-[80px]" />
+      </div>
+
+      {/* Corner accents */}
+      <div className="absolute top-12 left-12 w-20 h-20 border-l border-t border-gold/10" />
+      <div className="absolute top-12 right-12 w-20 h-20 border-r border-t border-gold/10" />
+      <div className="absolute bottom-12 left-12 w-20 h-20 border-l border-b border-gold/10" />
+      <div className="absolute bottom-12 right-12 w-20 h-20 border-r border-b border-gold/10" />
+
       <div
-        className={`max-w-3xl mx-auto text-center transition-all duration-700 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+        className={`relative z-10 max-w-4xl mx-auto text-center transition-all duration-1000 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}
       >
-        <div className="flex justify-center mb-8">
-          <div className="w-16 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
+        {/* Decorative element */}
+        <div className="flex justify-center mb-10">
+          <div className="flex items-center gap-4">
+            <div className="w-16 h-px bg-gradient-to-r from-transparent to-gold/50" />
+            <div className="w-3 h-3 rotate-45 border border-gold/50" />
+            <div className="w-16 h-px bg-gradient-to-l from-transparent to-gold/50" />
+          </div>
         </div>
-        <h2 className="font-serif text-3xl md:text-5xl text-background mb-6 text-balance italic">
-          Descubra a fragrância que vai marcar sua história
+
+        {/* Main headline */}
+        <h2 className="font-serif text-3xl md:text-5xl lg:text-6xl text-background mb-8 text-balance leading-tight">
+          <span className="italic">Descubra a fragrância</span>
+          <br />
+          <span className="text-gold">que marcará sua história</span>
         </h2>
-        <p className="text-background/50 mb-10 max-w-xl mx-auto leading-relaxed">
-          Atendimento personalizado e consultoria olfativa para encontrar o perfume ideal para você.
+
+        <p className="text-background/50 mb-12 max-w-2xl mx-auto leading-relaxed text-lg">
+          Atendimento personalizado e consultoria olfativa exclusiva para encontrar o perfume que traduz sua essência.
         </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+
+        {/* CTA Buttons with premium hover */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
           <a
             href={WHATSAPP_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-4 bg-gold text-foreground font-sans font-medium text-sm tracking-wider uppercase hover:bg-gold-light transition-all duration-300 inline-flex items-center gap-3 min-w-[220px] justify-center"
+            className="group relative px-10 py-5 bg-gold text-foreground font-sans font-medium text-sm tracking-wider uppercase overflow-hidden min-w-[260px] transition-all duration-500 hover:shadow-xl hover:shadow-gold/20"
           >
-            <MessageCircle className="w-4 h-4" />
-            Falar no WhatsApp
+            <span className="relative z-10 inline-flex items-center gap-3">
+              <MessageCircle className="w-5 h-5" />
+              Falar no WhatsApp
+            </span>
+            <div className="absolute inset-0 bg-gold-light translate-y-full group-hover:translate-y-0 transition-transform duration-500" />
           </a>
           <a
             href={INSTAGRAM_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-4 border border-background/30 text-background font-sans font-medium text-sm tracking-wider uppercase hover:border-gold hover:text-gold transition-all duration-300 inline-flex items-center gap-3 min-w-[220px] justify-center"
+            className="group px-10 py-5 border border-background/30 text-background font-sans font-medium text-sm tracking-wider uppercase min-w-[260px] transition-all duration-500 hover:border-gold hover:text-gold hover:bg-gold/5 inline-flex items-center gap-3 justify-center"
           >
-            <Instagram className="w-4 h-4" />
-            Ver Instagram
+            <Instagram className="w-5 h-5" />
+            Seguir no Instagram
           </a>
+        </div>
+
+        {/* Trust badge */}
+        <div className={`mt-16 transition-all duration-1000 delay-300 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+          <p className="text-background/30 text-xs tracking-luxury uppercase">
+            Alta Perfumaria Artesanal
+          </p>
         </div>
       </div>
     </section>
@@ -1014,20 +1255,40 @@ function PremiumFooter() {
 }
 
 /* =========================================================================
-   PERFUMES VIEW — Full Catalog with Filters
+   PERFUMES VIEW — Full Catalog with Premium Filters
    ========================================================================= */
 function PerfumesView({ onBack }: { onBack: () => void }) {
   const [activeCategory, setActiveCategory] = useState("Todas")
   const [activeFamily, setActiveFamily] = useState("Todas")
+  const [activeIntensity, setActiveIntensity] = useState("Todas")
+  const [showFilters, setShowFilters] = useState(true)
 
   const categories = ["Todas", "Feminina", "Masculina"]
   const families = ["Todas", "Floral", "Especiado", "Aquático", "Oriental"]
+  const intensities = ["Todas", "Moderada", "Intensa", "Forte", "Muito Forte"]
+
+  const getIntensityCategory = (intensity: string) => {
+    if (intensity.includes("Muito Forte")) return "Muito Forte"
+    if (intensity.includes("Forte")) return "Forte"
+    if (intensity.includes("Intensa")) return "Intensa"
+    if (intensity.includes("Moderada")) return "Moderada"
+    return "Moderada"
+  }
 
   const filtered = perfumes.filter((p) => {
     const catMatch = activeCategory === "Todas" || p.line === activeCategory
     const famMatch = activeFamily === "Todas" || p.familyTag === activeFamily
-    return catMatch && famMatch
+    const intMatch = activeIntensity === "Todas" || getIntensityCategory(p.intensity) === activeIntensity
+    return catMatch && famMatch && intMatch
   })
+
+  const activeFiltersCount = [activeCategory, activeFamily, activeIntensity].filter(f => f !== "Todas").length
+
+  const clearFilters = () => {
+    setActiveCategory("Todas")
+    setActiveFamily("Todas")
+    setActiveIntensity("Todas")
+  }
 
   return (
     <div className="min-h-screen bg-background">
@@ -1051,49 +1312,139 @@ function PerfumesView({ onBack }: { onBack: () => void }) {
           </p>
         </div>
 
-        {/* Filters */}
-        <div className="mb-12">
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <Filter className="w-4 h-4 text-gold" />
-            <span className="text-xs text-muted-foreground uppercase tracking-wider">Filtrar por</span>
+        {/* Premium Filters Panel */}
+        <div className="mb-12 bg-card border border-border p-6">
+          {/* Filter Header */}
+          <div className="flex items-center justify-between mb-6">
+            <button
+              onClick={() => setShowFilters(!showFilters)}
+              className="flex items-center gap-3 text-foreground"
+            >
+              <div className="flex items-center justify-center w-10 h-10 rounded-full border border-gold/30">
+                <Filter className="w-4 h-4 text-gold" />
+              </div>
+              <div className="text-left">
+                <p className="text-sm font-medium">Filtros</p>
+                <p className="text-xs text-muted-foreground">
+                  {activeFiltersCount > 0 ? `${activeFiltersCount} filtro${activeFiltersCount > 1 ? "s" : ""} ativo${activeFiltersCount > 1 ? "s" : ""}` : "Nenhum filtro ativo"}
+                </p>
+              </div>
+              <ChevronRight className={`w-4 h-4 text-muted-foreground transition-transform ${showFilters ? "rotate-90" : ""}`} />
+            </button>
+
+            {activeFiltersCount > 0 && (
+              <button
+                onClick={clearFilters}
+                className="text-xs text-gold hover:underline"
+              >
+                Limpar filtros
+              </button>
+            )}
           </div>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <div className="flex items-center gap-2">
-              <span className="text-xs text-muted-foreground">Linha:</span>
-              <div className="flex gap-2">
-                {categories.map((cat) => (
-                  <button
-                    key={cat}
-                    onClick={() => setActiveCategory(cat)}
-                    className={`px-4 py-2 text-xs tracking-wider transition-all duration-300 ${
-                      activeCategory === cat
-                        ? "bg-foreground text-background"
-                        : "border border-border text-muted-foreground hover:border-foreground hover:text-foreground"
-                    }`}
-                  >
-                    {cat}
-                  </button>
-                ))}
+
+          {/* Filter Options */}
+          {showFilters && (
+            <div className="space-y-6 animate-fade-in">
+              {/* Line Filter */}
+              <div>
+                <p className="text-[10px] text-gold uppercase tracking-luxury mb-3">Linha</p>
+                <div className="flex flex-wrap gap-2">
+                  {categories.map((cat) => (
+                    <button
+                      key={cat}
+                      onClick={() => setActiveCategory(cat)}
+                      className={`px-5 py-2.5 text-xs tracking-wider transition-all duration-300 ${
+                        activeCategory === cat
+                          ? "bg-foreground text-background shadow-lg"
+                          : "border border-border text-muted-foreground hover:border-gold/50 hover:text-foreground"
+                      }`}
+                    >
+                      {cat}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Family Filter */}
+              <div>
+                <p className="text-[10px] text-gold uppercase tracking-luxury mb-3">Família Olfativa</p>
+                <div className="flex flex-wrap gap-2">
+                  {families.map((fam) => (
+                    <button
+                      key={fam}
+                      onClick={() => setActiveFamily(fam)}
+                      className={`px-5 py-2.5 text-xs tracking-wider transition-all duration-300 ${
+                        activeFamily === fam
+                          ? "bg-foreground text-background shadow-lg"
+                          : "border border-border text-muted-foreground hover:border-gold/50 hover:text-foreground"
+                      }`}
+                    >
+                      {fam}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Intensity Filter */}
+              <div>
+                <p className="text-[10px] text-gold uppercase tracking-luxury mb-3">Intensidade</p>
+                <div className="flex flex-wrap gap-2">
+                  {intensities.map((int) => (
+                    <button
+                      key={int}
+                      onClick={() => setActiveIntensity(int)}
+                      className={`group px-5 py-2.5 text-xs tracking-wider transition-all duration-300 flex items-center gap-2 ${
+                        activeIntensity === int
+                          ? "bg-foreground text-background shadow-lg"
+                          : "border border-border text-muted-foreground hover:border-gold/50 hover:text-foreground"
+                      }`}
+                    >
+                      {int !== "Todas" && (
+                        <span className="flex items-center gap-0.5">
+                          {[...Array(5)].map((_, i) => (
+                            <div
+                              key={i}
+                              className={`w-1 h-2 transition-colors ${
+                                i < (int === "Moderada" ? 2 : int === "Intensa" ? 3 : int === "Forte" ? 4 : 5)
+                                  ? activeIntensity === int ? "bg-background" : "bg-gold"
+                                  : activeIntensity === int ? "bg-background/30" : "bg-border"
+                              }`}
+                            />
+                          ))}
+                        </span>
+                      )}
+                      {int}
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
-            <div className="flex items-center gap-2">
-              <span className="text-xs text-muted-foreground">Família:</span>
-              <div className="flex gap-2 flex-wrap justify-center">
-                {families.map((fam) => (
-                  <button
-                    key={fam}
-                    onClick={() => setActiveFamily(fam)}
-                    className={`px-4 py-2 text-xs tracking-wider transition-all duration-300 ${
-                      activeFamily === fam
-                        ? "bg-foreground text-background"
-                        : "border border-border text-muted-foreground hover:border-foreground hover:text-foreground"
-                    }`}
-                  >
-                    {fam}
-                  </button>
-                ))}
+          )}
+
+          {/* Results count */}
+          <div className="mt-6 pt-4 border-t border-border flex items-center justify-between">
+            <p className="text-sm text-muted-foreground">
+              Mostrando <span className="text-foreground font-medium">{filtered.length}</span> de {perfumes.length} fragrâncias
+            </p>
+            {activeFiltersCount > 0 && (
+              <div className="flex items-center gap-2">
+                {activeCategory !== "Todas" && (
+                  <span className="px-3 py-1 bg-gold/10 text-gold text-[10px] tracking-wider uppercase">
+                    {activeCategory}
+                  </span>
+                )}
+                {activeFamily !== "Todas" && (
+                  <span className="px-3 py-1 bg-gold/10 text-gold text-[10px] tracking-wider uppercase">
+                    {activeFamily}
+                  </span>
+                )}
+                {activeIntensity !== "Todas" && (
+                  <span className="px-3 py-1 bg-gold/10 text-gold text-[10px] tracking-wider uppercase">
+                    {activeIntensity}
+                  </span>
+                )}
               </div>
-            </div>
+            )}
           </div>
         </div>
 
@@ -1108,7 +1459,7 @@ function PerfumesView({ onBack }: { onBack: () => void }) {
           <div className="text-center py-20">
             <p className="text-muted-foreground text-lg">Nenhum perfume encontrado com os filtros selecionados.</p>
             <button
-              onClick={() => { setActiveCategory("Todas"); setActiveFamily("Todas") }}
+              onClick={clearFilters}
               className="mt-4 text-gold text-sm hover:underline"
             >
               Limpar filtros
@@ -1124,7 +1475,7 @@ function PerfumesView({ onBack }: { onBack: () => void }) {
 }
 
 /* =========================================================================
-   PERFUME CARD
+   PERFUME CARD — Premium Design with Visual Pyramid
    ========================================================================= */
 function PerfumeCard({
   perfume,
@@ -1134,22 +1485,64 @@ function PerfumeCard({
   index: number
 }) {
   const [expanded, setExpanded] = useState(false)
+  const { ref, isInView } = useInView(0.1)
+
+  // Get intensity level for visual indicator
+  const getIntensityLevel = (intensity: string) => {
+    if (intensity.includes("Muito Forte")) return 5
+    if (intensity.includes("Forte")) return 4
+    if (intensity.includes("Intensa")) return 4
+    if (intensity.includes("Moderada a Forte")) return 3
+    if (intensity.includes("Moderada")) return 2
+    return 3
+  }
+
+  const intensityLevel = getIntensityLevel(perfume.intensity)
 
   return (
-    <article className="group bg-card border border-border overflow-hidden hover:shadow-lg transition-all duration-500">
-      {/* Image */}
+    <article 
+      ref={ref}
+      className={`group bg-card border border-border overflow-hidden transition-all duration-700 hover:shadow-xl hover:shadow-gold/5 hover:border-gold/20 ${
+        isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+      }`}
+      style={{ transitionDelay: `${index * 100}ms` }}
+    >
+      {/* Image with overlay on hover */}
       <div className="relative aspect-[3/4] overflow-hidden">
         <Image
           src={perfume.image}
           alt={perfume.name}
           fill
-          className="object-cover transition-transform duration-700 group-hover:scale-105"
+          className="object-cover transition-all duration-700 group-hover:scale-110"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
-        <div className="absolute top-4 left-4">
-          <span className="px-3 py-1 bg-foreground/80 text-background text-[10px] tracking-luxury uppercase backdrop-blur-sm">
+        {/* Gradient overlay on hover */}
+        <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+        
+        {/* Tags */}
+        <div className="absolute top-4 left-4 flex flex-col gap-2">
+          <span className="px-3 py-1.5 bg-foreground/90 text-background text-[10px] tracking-luxury uppercase backdrop-blur-sm">
             {perfume.line}
           </span>
+        </div>
+
+        {/* Intensity badge */}
+        <div className="absolute top-4 right-4">
+          <div className="flex items-center gap-1 px-2 py-1 bg-background/90 backdrop-blur-sm">
+            {[...Array(5)].map((_, i) => (
+              <div
+                key={i}
+                className={`w-1.5 h-3 transition-colors ${
+                  i < intensityLevel ? "bg-gold" : "bg-border"
+                }`}
+              />
+            ))}
+          </div>
+        </div>
+
+        {/* Quick view on hover */}
+        <div className="absolute bottom-4 left-4 right-4 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
+          <p className="text-background text-xs leading-relaxed line-clamp-2">{perfume.description}</p>
         </div>
       </div>
 
@@ -1157,54 +1550,61 @@ function PerfumeCard({
       <div className="p-6">
         <div className="mb-4">
           <p className="text-gold text-[10px] tracking-luxury uppercase font-sans mb-2">{perfume.category}</p>
-          <h3 className="font-serif text-2xl text-foreground">{perfume.name}</h3>
+          <h3 className="font-serif text-2xl text-foreground group-hover:text-gold transition-colors duration-300">{perfume.name}</h3>
         </div>
 
-        <p className="text-muted-foreground text-sm leading-relaxed mb-5">{perfume.description}</p>
-
-        {/* Olfactory Pyramid */}
-        <button
-          onClick={() => setExpanded(!expanded)}
-          className="text-gold text-xs tracking-wider uppercase hover:underline mb-4 flex items-center gap-1"
-        >
-          Pirâmide Olfativa
-          <ChevronRight className={`w-3 h-3 transition-transform ${expanded ? "rotate-90" : ""}`} />
-        </button>
-
-        {expanded && (
-          <div className="mb-5 border-l-2 border-gold/30 pl-4 space-y-3 animate-fade-in">
-            <div>
-              <p className="text-[10px] text-gold uppercase tracking-wider mb-1">Notas de Topo</p>
-              <p className="text-foreground text-xs">{perfume.notes.top}</p>
+        {/* Visual Olfactory Pyramid - Always visible */}
+        <div className="mb-6">
+          <div className="flex items-center gap-2 mb-4">
+            <div className="w-8 h-px bg-gold/30" />
+            <p className="text-[10px] text-gold uppercase tracking-luxury">Pirâmide Olfativa</p>
+            <div className="flex-1 h-px bg-gold/30" />
+          </div>
+          
+          <div className="relative">
+            {/* Visual pyramid shape */}
+            <div className="flex flex-col items-center">
+              {/* Top notes - smallest */}
+              <div className="w-full max-w-[70%] bg-gradient-to-r from-gold/10 via-gold/20 to-gold/10 p-3 mb-1 relative">
+                <div className="absolute -left-2 top-1/2 -translate-y-1/2 w-1 h-1 bg-gold rounded-full" />
+                <p className="text-[9px] text-gold uppercase tracking-wider mb-0.5 text-center">Topo</p>
+                <p className="text-foreground text-[11px] text-center leading-tight">{perfume.notes.top}</p>
+              </div>
+              
+              {/* Heart notes - medium */}
+              <div className="w-full max-w-[85%] bg-gradient-to-r from-gold/5 via-gold/15 to-gold/5 p-3 mb-1 relative">
+                <div className="absolute -left-2 top-1/2 -translate-y-1/2 w-1.5 h-1.5 bg-gold/70 rounded-full" />
+                <p className="text-[9px] text-gold/80 uppercase tracking-wider mb-0.5 text-center">Coração</p>
+                <p className="text-foreground text-[11px] text-center leading-tight">{perfume.notes.heart}</p>
+              </div>
+              
+              {/* Base notes - largest */}
+              <div className="w-full bg-gradient-to-r from-transparent via-gold/10 to-transparent p-3 relative">
+                <div className="absolute -left-2 top-1/2 -translate-y-1/2 w-2 h-2 bg-gold/50 rounded-full" />
+                <p className="text-[9px] text-gold/60 uppercase tracking-wider mb-0.5 text-center">Fundo</p>
+                <p className="text-foreground text-[11px] text-center leading-tight">{perfume.notes.base}</p>
+              </div>
             </div>
-            <div>
-              <p className="text-[10px] text-gold uppercase tracking-wider mb-1">Notas de Coração</p>
-              <p className="text-foreground text-xs">{perfume.notes.heart}</p>
-            </div>
-            <div>
-              <p className="text-[10px] text-gold uppercase tracking-wider mb-1">Notas de Fundo</p>
-              <p className="text-foreground text-xs">{perfume.notes.base}</p>
-            </div>
           </div>
-        )}
+        </div>
 
-        {/* Details */}
-        <div className="border-t border-border pt-4 space-y-2 mb-5">
-          <div className="flex justify-between text-xs">
-            <span className="text-muted-foreground">Fixação</span>
-            <span className="text-foreground font-medium">{perfume.fixation}</span>
+        {/* Details - Compact grid */}
+        <div className="grid grid-cols-2 gap-3 mb-6 p-4 bg-secondary/50 border border-border">
+          <div>
+            <p className="text-[9px] text-muted-foreground uppercase tracking-wider mb-0.5">Fixação</p>
+            <p className="text-foreground text-xs font-medium">{perfume.fixation}</p>
           </div>
-          <div className="flex justify-between text-xs">
-            <span className="text-muted-foreground">Intensidade</span>
-            <span className="text-foreground font-medium">{perfume.intensity}</span>
+          <div>
+            <p className="text-[9px] text-muted-foreground uppercase tracking-wider mb-0.5">Intensidade</p>
+            <p className="text-foreground text-xs font-medium">{perfume.intensity}</p>
           </div>
-          <div className="flex justify-between text-xs">
-            <span className="text-muted-foreground">Volume</span>
-            <span className="text-foreground font-medium">{perfume.volume}</span>
+          <div>
+            <p className="text-[9px] text-muted-foreground uppercase tracking-wider mb-0.5">Volume</p>
+            <p className="text-foreground text-xs font-medium">{perfume.volume}</p>
           </div>
-          <div className="flex justify-between text-xs">
-            <span className="text-muted-foreground">Ocasião</span>
-            <span className="text-foreground font-medium">{perfume.occasion}</span>
+          <div>
+            <p className="text-[9px] text-muted-foreground uppercase tracking-wider mb-0.5">Ocasião</p>
+            <p className="text-foreground text-xs font-medium">{perfume.occasion}</p>
           </div>
         </div>
 
@@ -1213,10 +1613,11 @@ function PerfumeCard({
           href={`${WHATSAPP_LINK}?text=Olá! Tenho interesse no perfume ${perfume.name}.`}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 w-full py-3 bg-foreground text-background text-sm font-sans tracking-wider uppercase hover:bg-gold hover:text-foreground transition-all duration-300"
+          className="group/btn relative flex items-center justify-center gap-2 w-full py-4 bg-foreground text-background text-sm font-sans tracking-wider uppercase overflow-hidden transition-all duration-500"
         >
-          <MessageCircle className="w-4 h-4" />
-          Solicitar no WhatsApp
+          <MessageCircle className="w-4 h-4 relative z-10" />
+          <span className="relative z-10">Solicitar no WhatsApp</span>
+          <div className="absolute inset-0 bg-gold translate-y-full group-hover/btn:translate-y-0 transition-transform duration-500" />
         </a>
       </div>
     </article>
